@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="CORA businesscase procesketen-sjabloon"
+    name="CORA best-practice procesketen-sjabloon"
     id="fd078b64-1112-41ac-bc23-fe63d4e7b345">
   <children
       xsi:type="archimate:DiagramModelGroup"
@@ -107,12 +107,12 @@
           targetConnections="eaa3570d-3fd3-4e05-a199-7726e42a1b9f 78e43c05-ced0-4589-ba3e-fb0388663c88 3f865236-1f38-46f2-99cf-d066758ab935">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
-            id="9877b61d-3341-4a1a-bb63-6cee7c58edca"
+            id="14e7ca37-6b98-4d22-8b01-90feba953e5f"
             source="a4276b10-2d1f-458e-8605-e4e138bac811"
             target="cd9bd24e-348a-447d-8ca7-209bc33e98b6">
           <archimateRelationship
               xsi:type="archimate:TriggeringRelationship"
-              href="TriggeringRelationship_669c38e8-9b55-4743-aca1-1c682afb8c44.xml#669c38e8-9b55-4743-aca1-1c682afb8c44"/>
+              href="TriggeringRelationship_f64ce27b-27c7-406f-96a8-9e7e4ea53cbf.xml#f64ce27b-27c7-406f-96a8-9e7e4ea53cbf"/>
         </sourceConnections>
         <bounds
             x="540"
@@ -294,7 +294,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="cd9bd24e-348a-447d-8ca7-209bc33e98b6"
-        targetConnections="9877b61d-3341-4a1a-bb63-6cee7c58edca">
+        targetConnections="14e7ca37-6b98-4d22-8b01-90feba953e5f">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="f4a80cee-80c2-42a7-b013-5b03a4573157"
@@ -397,12 +397,12 @@
           targetConnections="ddea3599-bf95-47a3-929d-2d7552e3ccce">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
-            id="6d8998fa-c640-450f-b68b-03d9e7bf45ee"
+            id="88dba054-6356-421a-97f7-ca14be9666f5"
             source="28766808-c212-4995-9e97-85c363454ad4"
             target="f40ce4ff-8ad9-4efb-bfd3-12cf829d588c">
           <archimateRelationship
-              xsi:type="archimate:RealizationRelationship"
-              href="RealizationRelationship_a3d8bba1-2dc7-47a4-a4db-72058a26cb6e.xml#a3d8bba1-2dc7-47a4-a4db-72058a26cb6e"/>
+              xsi:type="archimate:TriggeringRelationship"
+              href="TriggeringRelationship_519d7c76-1489-4cb8-920b-5cd317bb6f85.xml#519d7c76-1489-4cb8-920b-5cd317bb6f85"/>
         </sourceConnections>
         <bounds
             x="204"
@@ -463,7 +463,7 @@
           targetConnections="e4b0b7a4-0ec0-42cd-83c4-ec7251be4093">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
-            id="3c31782a-f93c-4f21-a152-c9612c503222"
+            id="5ace2217-ddff-4db6-9727-182c1eed17e2"
             source="c94d70d0-f9f1-487e-aa81-d2641d3de161"
             target="f40ce4ff-8ad9-4efb-bfd3-12cf829d588c">
           <bendpoints
@@ -471,8 +471,8 @@
               startY="-3"
               endY="105"/>
           <archimateRelationship
-              xsi:type="archimate:RealizationRelationship"
-              href="RealizationRelationship_de97b19a-8d47-4a43-8fbb-a8dfdc5ef2e8.xml#de97b19a-8d47-4a43-8fbb-a8dfdc5ef2e8"/>
+              xsi:type="archimate:TriggeringRelationship"
+              href="TriggeringRelationship_ead14b30-9175-4424-bbf8-43acf9fc52f5.xml#ead14b30-9175-4424-bbf8-43acf9fc52f5"/>
         </sourceConnections>
         <bounds
             x="204"
@@ -483,11 +483,12 @@
             xsi:type="archimate:BusinessProcess"
             href="BusinessProcess_03b7b3e7-6599-47a1-9c80-593075bf39ef.xml#03b7b3e7-6599-47a1-9c80-593075bf39ef"/>
       </children>
+      <properties/>
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="f40ce4ff-8ad9-4efb-bfd3-12cf829d588c"
-        targetConnections="6d8998fa-c640-450f-b68b-03d9e7bf45ee 3c31782a-f93c-4f21-a152-c9612c503222">
+        targetConnections="88dba054-6356-421a-97f7-ca14be9666f5 5ace2217-ddff-4db6-9727-182c1eed17e2">
       <bounds
           x="1428"
           y="204"
@@ -496,6 +497,16 @@
       <archimateElement
           xsi:type="archimate:BusinessService"
           href="BusinessService_40a1e726-2f3e-481e-8c9b-6f65e12d3495.xml#40a1e726-2f3e-481e-8c9b-6f65e12d3495"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelNote"
+        id="1bba1be0-0888-4029-bf2b-36eead3f9334"
+        font="1|Segoe UI|9.0|2|WINDOWS|1|-12|0|0|0|400|-1|0|0|0|3|2|1|34|Segoe UI"
+        content="Dit sjabloon bevat de voorbeeldstructuur van een procesketen waarin de stappen per uitvoerende rol  worden gemodelleerd.">
+      <bounds
+          x="720"
+          width="684"
+          height="25"/>
     </children>
   </children>
 </archimate:ArchimateDiagramModel>
