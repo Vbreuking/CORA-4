@@ -3,7 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="029 Verkopen appartementen"
     id="e09c6841-62a5-4be3-92e6-9bdd36f9dcc6"
-    documentation="Der woningcorporatie kan van geslpitst vastgooed het appartementsrecht vervreemden. In de verkoopakte kan een terugkoopregeling woden opgenomen, maar dat hoeft niet. De terugkoopregeling kan voor woningcorporatie een terugkoopplicht of een terugkooprecht betreffen.In het laatste geval kan de womingcorporatie afzien van haar recht waardoor de toenmaliger koper (huidige eigenaar) kan besluiten het appartememtntsrecht te verkopen inclusief het terugkooprecht van betreffende woningcorporatie.">
+    documentation="De woningcorporatie kan van gesplitst vastgooed het appartementsrecht vervreemden. In de verkoopakte kan een terugkoopregeling woden opgenomen, maar dat hoeft niet. De terugkoopregeling kan voor woningcorporatie een terugkoopplicht of een terugkooprecht betreffen.In het laatste geval kan de womingcorporatie afzien van haar recht waardoor de toenmaliger koper (huidige eigenaar) kan besluiten het appartememtntsrecht te verkopen inclusief het terugkooprecht van betreffende woningcorporatie.">
   <children
       xsi:type="archimate:DiagramModelGroup"
       id="ba7cc1e1-31d2-4897-96f3-8cd8a8abfe98"
@@ -17,7 +17,8 @@
         height="181"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="9f59753c-24d3-4469-be94-e54681de0a7c">
+        id="9f59753c-24d3-4469-be94-e54681de0a7c"
+        targetConnections="89188a57-f40a-41ad-8645-da51a521fa7a">
       <bounds
           x="264"
           y="72"
@@ -29,7 +30,8 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="b12180e0-3d93-4adf-afaf-76b4e27ebf7b">
+        id="b12180e0-3d93-4adf-afaf-76b4e27ebf7b"
+        targetConnections="feae7cdf-1fc0-4d29-a784-f00a2c83ba66">
       <bounds
           x="624"
           y="72"
@@ -41,7 +43,8 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="b8e0c4a9-2bdd-41d5-83f9-e2b8a68770fb">
+        id="b8e0c4a9-2bdd-41d5-83f9-e2b8a68770fb"
+        targetConnections="e5194651-a00d-42a4-97db-9350c6af7b36">
       <bounds
           x="444"
           y="72"
@@ -306,6 +309,33 @@
         <archimateRelationship
             xsi:type="archimate:AggregationRelationship"
             href="AggregationRelationship_a480031a-bc03-47f0-9ebf-a48e704e95ee.xml#a480031a-bc03-47f0-9ebf-a48e704e95ee"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="89188a57-f40a-41ad-8645-da51a521fa7a"
+          source="c3d91072-78fb-458d-8d15-dba4c5d51d07"
+          target="9f59753c-24d3-4469-be94-e54681de0a7c">
+        <archimateRelationship
+            xsi:type="archimate:AccessRelationship"
+            href="AccessRelationship_85e8c486-82c9-4a54-9657-efe3f690b2aa.xml#85e8c486-82c9-4a54-9657-efe3f690b2aa"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="e5194651-a00d-42a4-97db-9350c6af7b36"
+          source="c3d91072-78fb-458d-8d15-dba4c5d51d07"
+          target="b8e0c4a9-2bdd-41d5-83f9-e2b8a68770fb">
+        <archimateRelationship
+            xsi:type="archimate:AccessRelationship"
+            href="AccessRelationship_83e28c2f-e712-45d8-b6a6-a42c685560eb.xml#83e28c2f-e712-45d8-b6a6-a42c685560eb"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="feae7cdf-1fc0-4d29-a784-f00a2c83ba66"
+          source="c3d91072-78fb-458d-8d15-dba4c5d51d07"
+          target="b12180e0-3d93-4adf-afaf-76b4e27ebf7b">
+        <archimateRelationship
+            xsi:type="archimate:AccessRelationship"
+            href="AccessRelationship_3ea62e22-d3ad-4dd0-ab27-aae6ecadd518.xml#3ea62e22-d3ad-4dd0-ab27-aae6ecadd518"/>
       </sourceConnections>
       <bounds
           x="216"
