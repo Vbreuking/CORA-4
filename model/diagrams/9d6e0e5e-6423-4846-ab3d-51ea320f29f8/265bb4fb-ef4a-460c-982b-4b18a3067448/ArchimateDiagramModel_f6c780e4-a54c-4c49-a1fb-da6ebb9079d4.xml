@@ -67,5 +67,39 @@
         y="396"
         width="1105"
         height="349"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="4001c966-2caf-4715-be00-172472362b26">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="f8bec0e3-f607-4478-9cea-d33b5982fbd5"
+          source="4001c966-2caf-4715-be00-172472362b26"
+          target="9bda3c07-c7f9-420b-9696-a326a06060eb">
+        <archimateRelationship
+            xsi:type="archimate:RealizationRelationship"
+            href="RealizationRelationship_CORA4-Bedrijfsproces-dienst-24.xml#CORA4-Bedrijfsproces-dienst-24"/>
+      </sourceConnections>
+      <bounds
+          x="480"
+          y="180"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessProcess"
+          href="BusinessProcess_01b8e6ac-482f-4da9-9c25-ae48fcc15a03.xml#01b8e6ac-482f-4da9-9c25-ae48fcc15a03"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="9bda3c07-c7f9-420b-9696-a326a06060eb"
+        targetConnections="f8bec0e3-f607-4478-9cea-d33b5982fbd5">
+      <bounds
+          x="912"
+          y="180"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessService"
+          href="BusinessService_7c634c83-97a4-47dc-a062-83467100e36c.xml#7c634c83-97a4-47dc-a062-83467100e36c"/>
+    </children>
   </children>
 </archimate:ArchimateDiagramModel>
