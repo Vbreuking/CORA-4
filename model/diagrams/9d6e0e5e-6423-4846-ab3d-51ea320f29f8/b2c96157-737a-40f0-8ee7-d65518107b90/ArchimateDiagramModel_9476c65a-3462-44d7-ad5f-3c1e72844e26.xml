@@ -67,7 +67,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="afcf8067-189c-4b5c-9dcf-9ffb20ddd677"
-          targetConnections="bb4b5ddf-52c9-44be-84c1-70d321635b76">
+          targetConnections="bb4b5ddf-52c9-44be-84c1-70d321635b76 id-1f5c5b14421d4fd28b19c7a1022591c5">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-8698eb85574646e08e8161d69a466f9d"
@@ -157,6 +157,15 @@
           <archimateRelationship
               xsi:type="archimate:AggregationRelationship"
               href="AggregationRelationship_id-9204c490fad34ff0beb24ccaf4f083a4.xml#id-9204c490fad34ff0beb24ccaf4f083a4"/>
+        </sourceConnections>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-82996f6650b54929a31520f62bbcefb5"
+            source="afcf8067-189c-4b5c-9dcf-9ffb20ddd677"
+            target="922c94a1-d4c9-443d-af94-5b681eabcfb5">
+          <archimateRelationship
+              xsi:type="archimate:RealizationRelationship"
+              href="RealizationRelationship_id-720c29f5b54442fc831995dd21617e61.xml#id-720c29f5b54442fc831995dd21617e61"/>
         </sourceConnections>
         <bounds
             x="12"
@@ -580,6 +589,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="922c94a1-d4c9-443d-af94-5b681eabcfb5"
+        targetConnections="id-82996f6650b54929a31520f62bbcefb5"
         textPosition="1">
       <bounds
           x="1680"
@@ -594,6 +604,15 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="1043a518-3a03-4bc3-9728-6356c7dd344c"
         textPosition="1">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-1f5c5b14421d4fd28b19c7a1022591c5"
+          source="1043a518-3a03-4bc3-9728-6356c7dd344c"
+          target="afcf8067-189c-4b5c-9dcf-9ffb20ddd677">
+        <archimateRelationship
+            xsi:type="archimate:TriggeringRelationship"
+            href="TriggeringRelationship_id-73b5d9c4c3f74aaf989df11417468024.xml#id-73b5d9c4c3f74aaf989df11417468024"/>
+      </sourceConnections>
       <bounds
           x="12"
           y="108"
