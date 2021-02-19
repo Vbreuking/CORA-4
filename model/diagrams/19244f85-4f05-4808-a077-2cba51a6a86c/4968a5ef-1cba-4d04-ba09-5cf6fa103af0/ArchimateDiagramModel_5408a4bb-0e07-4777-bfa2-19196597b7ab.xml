@@ -12,7 +12,7 @@
     <bounds
         x="12"
         y="612"
-        width="1297"
+        width="1369"
         height="181"/>
   </children>
   <children
@@ -24,7 +24,7 @@
     <bounds
         x="12"
         y="804"
-        width="1297"
+        width="1369"
         height="181"/>
   </children>
   <children
@@ -36,7 +36,7 @@
     <bounds
         x="12"
         y="396"
-        width="1297"
+        width="1369"
         height="205"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -44,8 +44,8 @@
         targetConnections="d0254fa5-3d2b-4b24-9869-abf8b6888e72"
         textPosition="1">
       <bounds
-          x="1164"
-          y="54"
+          x="1236"
+          y="24"
           width="120"
           height="55"/>
       <archimateElement
@@ -58,8 +58,8 @@
         targetConnections="e2ca7200-4cc3-44f8-b044-64882433f353"
         textPosition="1">
       <bounds
-          x="1020"
-          y="108"
+          x="1104"
+          y="60"
           width="120"
           height="55"/>
       <archimateElement
@@ -91,13 +91,13 @@
       </sourceConnections>
       <bounds
           x="150"
-          y="47"
+          y="36"
           width="847"
-          height="133"/>
+          height="156"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="ea87580d-c890-496c-9b8c-5036e5a632bd"
-          targetConnections="e3bc9713-4327-49f6-a145-c9d535264ee2 fbe2792a-bc3b-4639-8c84-2a547621fb11">
+          targetConnections="e3bc9713-4327-49f6-a145-c9d535264ee2">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="685d961c-2385-4ba0-b40f-a3842199b5e8"
@@ -161,19 +161,28 @@
               xsi:type="archimate:AggregationRelationship"
               href="AggregationRelationship_396d3f67-598a-4230-8807-a722870b22ca.xml#396d3f67-598a-4230-8807-a722870b22ca"/>
         </sourceConnections>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-66161f5a0e8a46d4a927f2bbb7d47c5c"
+            source="ea87580d-c890-496c-9b8c-5036e5a632bd"
+            target="id-af8a1ba518044023be4395c3d86d97de">
+          <archimateRelationship
+              xsi:type="archimate:TriggeringRelationship"
+              href="TriggeringRelationship_id-27cabedbfa5c47c5afa3d5da8b3ab3bd.xml#id-27cabedbfa5c47c5afa3d5da8b3ab3bd"/>
+        </sourceConnections>
         <bounds
             x="24"
             y="36"
             width="805"
-            height="85"/>
+            height="108"/>
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="089ac3b7-369e-4d7d-bfc2-274ba6f9f1b4"
-            targetConnections="685d961c-2385-4ba0-b40f-a3842199b5e8"
+            targetConnections="685d961c-2385-4ba0-b40f-a3842199b5e8 fbe2792a-bc3b-4639-8c84-2a547621fb11"
             textPosition="1">
           <bounds
               x="12"
-              y="24"
+              y="47"
               width="120"
               height="55"/>
           <archimateElement
@@ -187,7 +196,7 @@
             textPosition="1">
           <bounds
               x="276"
-              y="24"
+              y="47"
               width="120"
               height="55"/>
           <archimateElement
@@ -200,7 +209,7 @@
             targetConnections="67d632cb-a6cb-42ad-ad87-bba849bd6d48">
           <bounds
               x="144"
-              y="24"
+              y="47"
               width="120"
               height="55"/>
           <archimateElement
@@ -213,7 +222,7 @@
             targetConnections="543cc095-0ab4-4f1e-a020-a92a65f52fbf">
           <bounds
               x="408"
-              y="24"
+              y="47"
               width="120"
               height="55"/>
           <archimateElement
@@ -226,7 +235,7 @@
             targetConnections="23c95453-cb84-4d55-944d-87ec38b293c7">
           <bounds
               x="540"
-              y="24"
+              y="47"
               width="120"
               height="55"/>
           <archimateElement
@@ -239,7 +248,7 @@
             targetConnections="078e3901-057e-4019-bdac-0bca4e99e57b">
           <bounds
               x="672"
-              y="24"
+              y="47"
               width="120"
               height="55"/>
           <archimateElement
@@ -262,19 +271,32 @@
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="fbe2792a-bc3b-4639-8c84-2a547621fb11"
           source="1c4ecb06-ec5f-4996-8bfe-cbf6d9fa5933"
-          target="ea87580d-c890-496c-9b8c-5036e5a632bd">
+          target="089ac3b7-369e-4d7d-bfc2-274ba6f9f1b4">
         <archimateRelationship
             xsi:type="archimate:TriggeringRelationship"
             href="TriggeringRelationship_b9acc6fc-9024-4dbf-8145-cd7a693594ea.xml#b9acc6fc-9024-4dbf-8145-cd7a693594ea"/>
       </sourceConnections>
       <bounds
           x="12"
-          y="108"
+          y="120"
           width="120"
           height="55"/>
       <archimateElement
           xsi:type="archimate:BusinessEvent"
           href="BusinessEvent_26b32bfb-990a-43fa-a75e-df58a0e4ab6a.xml#26b32bfb-990a-43fa-a75e-df58a0e4ab6a"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-af8a1ba518044023be4395c3d86d97de"
+        targetConnections="id-66161f5a0e8a46d4a927f2bbb7d47c5c">
+      <bounds
+          x="1020"
+          y="120"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessEvent"
+          href="BusinessEvent_id-bd0137ecfc2649ec974fc41b21498809.xml#id-bd0137ecfc2649ec974fc41b21498809"/>
     </children>
   </children>
   <children
@@ -286,7 +308,7 @@
     <bounds
         x="12"
         y="204"
-        width="1297"
+        width="1369"
         height="181"/>
   </children>
   <children
@@ -298,7 +320,7 @@
     <bounds
         x="12"
         y="12"
-        width="1297"
+        width="1369"
         height="181"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
