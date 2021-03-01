@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="043.6 Voeren crediteurenbeheer"
+    name="61 Voeren crediteurenbeheer"
     id="680a77dd-1301-4cc6-bebf-24ed3a3a8a10">
   <children
       xsi:type="archimate:DiagramModelGroup"
@@ -80,15 +80,6 @@
         </sourceConnections>
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
-            id="6e339384-c0db-44e8-941f-6d9e98a5239d"
-            source="6c0f9312-2f33-4429-a08f-492680e3dd17"
-            target="e4a15d09-254f-4dbc-b45f-96e798091779">
-          <archimateRelationship
-              xsi:type="archimate:RealizationRelationship"
-              href="RealizationRelationship_891261b1-e68f-42dd-822a-c3da80fd620a.xml#891261b1-e68f-42dd-822a-c3da80fd620a"/>
-        </sourceConnections>
-        <sourceConnections
-            xsi:type="archimate:DiagramModelArchimateConnection"
             id="4c78ae72-1a0a-4394-87a9-fd5e0e5c5f95"
             source="6c0f9312-2f33-4429-a08f-492680e3dd17"
             target="78c72469-07ae-4b01-adf4-25b18bb85610">
@@ -113,6 +104,15 @@
           <archimateRelationship
               xsi:type="archimate:TriggeringRelationship"
               href="TriggeringRelationship_id-5f801d63f1234e18bfd85a2b3dba5f95.xml#id-5f801d63f1234e18bfd85a2b3dba5f95"/>
+        </sourceConnections>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-272dfb10ce4f43128992c129b97f5a17"
+            source="6c0f9312-2f33-4429-a08f-492680e3dd17"
+            target="id-e0e374306b7b4118a5bcde0f8380eea0">
+          <archimateRelationship
+              xsi:type="archimate:RealizationRelationship"
+              href="RealizationRelationship_017c60cb-aa53-4bbe-8464-67844a81c7d9.xml#017c60cb-aa53-4bbe-8464-67844a81c7d9"/>
         </sourceConnections>
         <bounds
             x="24"
@@ -202,20 +202,6 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="e4a15d09-254f-4dbc-b45f-96e798091779"
-        targetConnections="6e339384-c0db-44e8-941f-6d9e98a5239d"
-        textPosition="1">
-      <bounds
-          x="768"
-          y="84"
-          width="120"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:BusinessService"
-          href="BusinessService_b0bd6cde-3997-4794-bb2f-edd5826d7981.xml#b0bd6cde-3997-4794-bb2f-edd5826d7981"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
         id="64bc35d0-8e9c-452f-92bb-8efc08a3880a"
         textPosition="1">
       <sourceConnections
@@ -249,6 +235,19 @@
       <archimateElement
           xsi:type="archimate:BusinessEvent"
           href="BusinessEvent_id-cbe7719fe6de4968b1e0e06033bd54e7.xml#id-cbe7719fe6de4968b1e0e06033bd54e7"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-e0e374306b7b4118a5bcde0f8380eea0"
+        targetConnections="id-272dfb10ce4f43128992c129b97f5a17">
+      <bounds
+          x="744"
+          y="84"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessService"
+          href="BusinessService_effd7853-773d-4ec4-83d0-09381d725ae8.xml#effd7853-773d-4ec4-83d0-09381d725ae8"/>
     </children>
   </children>
   <children
