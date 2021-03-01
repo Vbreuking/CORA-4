@@ -112,11 +112,58 @@
             xsi:type="archimate:RealizationRelationship"
             href="RealizationRelationship_349ad826-4dad-405c-8bd7-54a43eafced6.xml#349ad826-4dad-405c-8bd7-54a43eafced6"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-1961d3e3cad94edf8b0710e69841f82e"
+          source="5a3be058-caa9-4bc6-89c7-7445607abb60"
+          target="id-6a4ad6bbaff64625b0aa7ad08d9ad477">
+        <archimateRelationship
+            xsi:type="archimate:AggregationRelationship"
+            href="AggregationRelationship_id-35f189dc629345f6b79f4b8f4c2b176b.xml#id-35f189dc629345f6b79f4b8f4c2b176b"/>
+      </sourceConnections>
       <bounds
           x="816"
           y="540"
           width="337"
           height="109"/>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-6a4ad6bbaff64625b0aa7ad08d9ad477"
+          targetConnections="id-1961d3e3cad94edf8b0710e69841f82e id-82d51f2a33a14541a40b2164a96d69b0"
+          fontColor="#ffffff"
+          fillColor="#2a8ec9">
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-a743f0dceb354c3b8c5b367c796e9f74"
+            source="id-6a4ad6bbaff64625b0aa7ad08d9ad477"
+            target="c902f744-7b60-41a0-a015-54d11fe62112">
+          <bendpoints
+              startX="480"
+              startY="-3"
+              endX="-1"
+              endY="-63"/>
+          <archimateRelationship
+              xsi:type="archimate:TriggeringRelationship"
+              href="TriggeringRelationship_id-594ed5b9d3e9441d9e82d7e1d4c7abbb.xml#id-594ed5b9d3e9441d9e82d7e1d4c7abbb"/>
+        </sourceConnections>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-8a74d549da324fe68601eed7025456b5"
+            source="id-6a4ad6bbaff64625b0aa7ad08d9ad477"
+            target="2611bc00-b1e8-4781-9ad7-894ce87a1b54">
+          <archimateRelationship
+              xsi:type="archimate:RealizationRelationship"
+              href="RealizationRelationship_id-5e0244c04a724e9abc7a2099ed7ffff6.xml#id-5e0244c04a724e9abc7a2099ed7ffff6"/>
+        </sourceConnections>
+        <bounds
+            x="108"
+            y="48"
+            width="120"
+            height="55"/>
+        <archimateElement
+            xsi:type="archimate:BusinessProcess"
+            href="BusinessProcess_id-8d3558f7c1fc43e4b959cd485aa65954.xml#id-8d3558f7c1fc43e4b959cd485aa65954"/>
+      </children>
       <archimateElement
           xsi:type="archimate:BusinessProcess"
           href="BusinessProcess_0dd67b3b-d56f-4120-9324-229319610d58.xml#0dd67b3b-d56f-4120-9324-229319610d58"/>
@@ -360,7 +407,7 @@
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="2611bc00-b1e8-4781-9ad7-894ce87a1b54"
-            targetConnections="64055e13-05b2-4264-85d8-5f391cb675be"
+            targetConnections="64055e13-05b2-4264-85d8-5f391cb675be id-8a74d549da324fe68601eed7025456b5"
             fillColor="#ffe89f"
             textPosition="1">
           <bounds
@@ -556,6 +603,15 @@
         targetConnections="6a3a3d79-3bad-49d7-b43d-c6bebcc4abfe"
         fillColor="#eaeaea"
         textPosition="1">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-82d51f2a33a14541a40b2164a96d69b0"
+          source="76baaf54-e7cf-489a-9d88-2e388de986ab"
+          target="id-6a4ad6bbaff64625b0aa7ad08d9ad477">
+        <archimateRelationship
+            xsi:type="archimate:TriggeringRelationship"
+            href="TriggeringRelationship_id-2eb9c3836df74b3593b0f4d827838d34.xml#id-2eb9c3836df74b3593b0f4d827838d34"/>
+      </sourceConnections>
       <bounds
           x="660"
           y="588"
@@ -568,6 +624,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="c902f744-7b60-41a0-a015-54d11fe62112"
+        targetConnections="id-a743f0dceb354c3b8c5b367c796e9f74"
         fillColor="#eaeaea"
         textPosition="1">
       <bounds
