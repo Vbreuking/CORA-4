@@ -1,4 +1,42 @@
 <archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="controle"
-    id="id-a4d1d2242efd47d0a4ad6d9aaff709ce"/>
+    id="id-a4d1d2242efd47d0a4ad6d9aaff709ce">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-69c989c82a384e02ba5fe2c1a276181b"
+      targetConnections="id-b5cafa4e3a384d63af22a3185c7286b0"
+      textPosition="1">
+    <bounds
+        x="563"
+        y="429"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessFunction"
+        href="BusinessFunction_ef5f211d-8e75-40ab-bbb3-ca3cf13c6dc1.xml#ef5f211d-8e75-40ab-bbb3-ca3cf13c6dc1"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-7441295af23d4d6398bb2671b142f412"
+      textPosition="1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-b5cafa4e3a384d63af22a3185c7286b0"
+        source="id-7441295af23d4d6398bb2671b142f412"
+        target="id-69c989c82a384e02ba5fe2c1a276181b">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-f6f03c5dda0143a2a63c02a897d73acb.xml#id-f6f03c5dda0143a2a63c02a897d73acb"/>
+    </sourceConnections>
+    <bounds
+        x="418"
+        y="555"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessInteraction"
+        href="BusinessInteraction_id-05a84897d4b44afca1a320fe02118887.xml#id-05a84897d4b44afca1a320fe02118887"/>
+  </children>
+</archimate:ArchimateDiagramModel>

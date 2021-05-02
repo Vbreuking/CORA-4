@@ -699,15 +699,6 @@
               </sourceConnections>
               <sourceConnections
                   xsi:type="archimate:DiagramModelArchimateConnection"
-                  id="id-886ae7419539412f8a4fd5a96dd6091a"
-                  source="id-42336a280ecb44e7a78192152854ef42"
-                  target="id-cb5223e2245d4e9993a1430a01a32f90">
-                <archimateRelationship
-                    xsi:type="archimate:AggregationRelationship"
-                    href="AggregationRelationship_id-d11b3e7fec49451baf841250388c6b0d.xml#id-d11b3e7fec49451baf841250388c6b0d"/>
-              </sourceConnections>
-              <sourceConnections
-                  xsi:type="archimate:DiagramModelArchimateConnection"
                   id="id-1943b215cd7d4f059a02b3e96a94f499"
                   source="id-42336a280ecb44e7a78192152854ef42"
                   target="id-19f592d5749e46e597d4c5c5d53eeeb8">
@@ -814,6 +805,15 @@
                     xsi:type="archimate:AggregationRelationship"
                     href="AggregationRelationship_id-163d56d33eea40c08ad5234775e00281.xml#id-163d56d33eea40c08ad5234775e00281"/>
               </sourceConnections>
+              <sourceConnections
+                  xsi:type="archimate:DiagramModelArchimateConnection"
+                  id="id-05853acf315c4fda95841093d44bbda9"
+                  source="id-42336a280ecb44e7a78192152854ef42"
+                  target="id-2cf6a041aefa4af1b522e73454ab726d">
+                <archimateRelationship
+                    xsi:type="archimate:AggregationRelationship"
+                    href="AggregationRelationship_id-c722867b9d10474798a9b80fe6a0723b.xml#id-c722867b9d10474798a9b80fe6a0723b"/>
+              </sourceConnections>
               <bounds
                   x="12"
                   y="156"
@@ -848,21 +848,6 @@
                 <archimateElement
                     xsi:type="archimate:BusinessProcess"
                     href="BusinessProcess_id-44eef05ac5594fc0a0981f6e92abab40.xml#id-44eef05ac5594fc0a0981f6e92abab40"/>
-              </children>
-              <children
-                  xsi:type="archimate:DiagramModelArchimateObject"
-                  id="id-cb5223e2245d4e9993a1430a01a32f90"
-                  targetConnections="id-886ae7419539412f8a4fd5a96dd6091a"
-                  fillColor="#e8f4ff"
-                  textPosition="1">
-                <bounds
-                    x="276"
-                    y="36"
-                    width="120"
-                    height="55"/>
-                <archimateElement
-                    xsi:type="archimate:BusinessProcess"
-                    href="BusinessProcess_id-2653be536c4e476cabbd6a9306419b95.xml#id-2653be536c4e476cabbd6a9306419b95"/>
               </children>
               <children
                   xsi:type="archimate:DiagramModelArchimateObject"
@@ -1091,6 +1076,21 @@
                 <archimateElement
                     xsi:type="archimate:BusinessProcess"
                     href="BusinessProcess_id-31153ec845b0496db99ee2f58de78a97.xml#id-31153ec845b0496db99ee2f58de78a97"/>
+              </children>
+              <children
+                  xsi:type="archimate:DiagramModelArchimateObject"
+                  id="id-2cf6a041aefa4af1b522e73454ab726d"
+                  targetConnections="id-05853acf315c4fda95841093d44bbda9"
+                  fillColor="#e8f4ff"
+                  textPosition="1">
+                <bounds
+                    x="276"
+                    y="36"
+                    width="120"
+                    height="55"/>
+                <archimateElement
+                    xsi:type="archimate:BusinessProcess"
+                    href="BusinessProcess_id-566eabfbc6ad474fa7c1b25db23ef231.xml#id-566eabfbc6ad474fa7c1b25db23ef231"/>
               </children>
               <archimateElement
                   xsi:type="archimate:BusinessProcess"
@@ -3440,8 +3440,8 @@
             href="BusinessFunction_ef5f211d-8e75-40ab-bbb3-ca3cf13c6dc1.xml#ef5f211d-8e75-40ab-bbb3-ca3cf13c6dc1"/>
       </children>
       <archimateElement
-          xsi:type="archimate:BusinessCollaboration"
-          href="BusinessCollaboration_id-fe423d7dac5e468984fbfa2d56837448.xml#id-fe423d7dac5e468984fbfa2d56837448"/>
+          xsi:type="archimate:BusinessInteraction"
+          href="BusinessInteraction_id-36655d26f68f44888a5ed9e822461cb5.xml#id-36655d26f68f44888a5ed9e822461cb5"/>
     </children>
     <archimateElement
         xsi:type="archimate:BusinessInteraction"
