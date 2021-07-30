@@ -1,11 +1,21 @@
 <archimate:BusinessProcess
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Versturen factuur"
-    id="82606cc0-91ae-4be0-b2fc-e87278cf27da">
+    id="82606cc0-91ae-4be0-b2fc-e87278cf27da"
+    documentation="Controleer de factuur en verstuur deze. Als er een brief bij de factuur verstuurd dient te worden, verstuur de factuur dan intern naar de betreffende afdeling, die de brief toevoegt. Voorbeeld: afrekening service- en stookkosten plus brief.&#xD;&#xA;&#xD;&#xA;Input: Opgestelde factuur&#xD;&#xA;Output: verstuurde factuur (met eventueel een toelichtende brief)">
   <properties
       key="CORA-concepttype"
       value="Processtap"/>
   <properties
       key="Bron"
       value="CORA 4.1"/>
+  <properties
+      key="Verhuurmutatie"
+      value="Ja"/>
+  <properties
+      key="Reparatieonderhoud"
+      value="Ja"/>
+  <properties
+      key="Servicecomponenten"
+      value="Ja"/>
 </archimate:BusinessProcess>
