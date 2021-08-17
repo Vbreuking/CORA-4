@@ -8,6 +8,24 @@
       id="6cbbe26c-e683-47c8-b6e0-ec6005fb7ff0"
       font="1|Segoe UI|11.25|2|WINDOWS|1|-15|0|0|0|400|-1|0|0|0|3|2|1|34|Segoe UI"
       fillColor="#bfe1ff">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-805b8dd0120c4ebe807bf3285f73dc38"
+        source="6cbbe26c-e683-47c8-b6e0-ec6005fb7ff0"
+        target="id-89c21e46385f48298981ae1ead45e860">
+      <archimateRelationship
+          xsi:type="archimate:InfluenceRelationship"
+          href="InfluenceRelationship_id-44d64c618281424aa151a1cf9a8a7404.xml#id-44d64c618281424aa151a1cf9a8a7404"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-9fde8ad93ec44209bb61db178ffcc6ec"
+        source="6cbbe26c-e683-47c8-b6e0-ec6005fb7ff0"
+        target="id-396aabb106f14e3fb15e17f0d31a8ef7">
+      <archimateRelationship
+          xsi:type="archimate:InfluenceRelationship"
+          href="InfluenceRelationship_id-511a5bd3b7eb4673992ece564249f1c7.xml#id-511a5bd3b7eb4673992ece564249f1c7"/>
+    </sourceConnections>
     <bounds
         y="12"
         width="1489"
@@ -1574,5 +1592,57 @@
     <archimateElement
         xsi:type="archimate:Product"
         href="Product_id-1ac96a09029f4ed2bfe3d1b60f72e669.xml#id-1ac96a09029f4ed2bfe3d1b60f72e669"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-a3f682e872f34c2eac260ae50b2aa4d1"
+      name="KPI's"
+      textAlignment="1"
+      fillColor="#ffffff"
+      documentation="In deze baan worden de belangrijkste (proces/resultaat) kPi's gemodelleerd">
+    <bounds
+        y="-192"
+        width="1741"
+        height="181"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-89c21e46385f48298981ae1ead45e860"
+        targetConnections="id-805b8dd0120c4ebe807bf3285f73dc38"
+        textPosition="1">
+      <bounds
+          x="324"
+          y="72"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Value"
+          href="Value_f40b386c-b917-4da5-a76c-0dbf5e37eb0e.xml#f40b386c-b917-4da5-a76c-0dbf5e37eb0e"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-396aabb106f14e3fb15e17f0d31a8ef7"
+        targetConnections="id-9fde8ad93ec44209bb61db178ffcc6ec"
+        textPosition="1">
+      <bounds
+          x="516"
+          y="72"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Value"
+          href="Value_825ba7f5-2c90-4600-a056-07e292303793.xml#825ba7f5-2c90-4600-a056-07e292303793"/>
+    </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-1884ec3c7f1348b696d207c65a6a43d5"
+      name="Risico's"
+      textAlignment="1"
+      fillColor="#ffffff"
+      documentation="In deze baan worden de belangrijkste (bedrijfs/proces)risico's gemodelleerd">
+    <bounds
+        y="-384"
+        width="1741"
+        height="181"/>
   </children>
 </archimate:ArchimateDiagramModel>
