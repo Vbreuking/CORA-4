@@ -12,7 +12,7 @@
       content="Legenda:">
     <bounds
         x="-85"
-        y="12"
+        y="-108"
         width="325"
         height="61"/>
   </children>
@@ -50,7 +50,7 @@
       content="Woninigcorporatie">
     <bounds
         x="-13"
-        y="24"
+        y="-96"
         width="121"
         height="37"/>
   </children>
@@ -88,7 +88,7 @@
       content="Ketenpartner woningcorporatie">
     <bounds
         x="107"
-        y="24"
+        y="-96"
         width="121"
         height="37"/>
   </children>
@@ -216,6 +216,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-e6b06c25c82747f68d91d8578b363840"
+      targetConnections="id-68040e8bd15f407ba870fe7278e933e9"
       font="1|Segoe UI|11.25|2|WINDOWS|1|-15|0|0|0|400|-1|0|0|0|3|2|1|34|Segoe UI"
       fillColor="#bfe1ff">
     <sourceConnections
@@ -1217,5 +1218,27 @@
     <archimateElement
         xsi:type="archimate:Product"
         href="Product_id-c7aadab465e84b8993c30c58f744795f.xml#id-c7aadab465e84b8993c30c58f744795f"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-49b2f6e168da4b16aedf00394ae372d1"
+      textPosition="1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-68040e8bd15f407ba870fe7278e933e9"
+        source="id-49b2f6e168da4b16aedf00394ae372d1"
+        target="id-e6b06c25c82747f68d91d8578b363840">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-014d87299e294cf3831ad770dfb1f1b2.xml#id-014d87299e294cf3831ad770dfb1f1b2"/>
+    </sourceConnections>
+    <bounds
+        x="576"
+        y="-108"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Value"
+        href="Value_d1178672-ec39-468f-8960-7427ce9f2b00.xml#d1178672-ec39-468f-8960-7427ce9f2b00"/>
   </children>
 </archimate:ArchimateDiagramModel>

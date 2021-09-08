@@ -18,8 +18,16 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-6aea3d9e18e244e6b57c6f0c7f5dddd8"
-        targetConnections="id-92a99fa1ed4c440b926b5dee8e73abb9"
         textPosition="1">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-0cd2d04a25cf474baeccc2331827bf34"
+          source="id-6aea3d9e18e244e6b57c6f0c7f5dddd8"
+          target="id-3e8356fd9a9845a5afb0cfc928161d52">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-acc8d11795c647afa6fb117bf7cf78ab.xml#id-acc8d11795c647afa6fb117bf7cf78ab"/>
+      </sourceConnections>
       <bounds
           x="396"
           y="60"
@@ -93,7 +101,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-3e8356fd9a9845a5afb0cfc928161d52"
-          targetConnections="id-60e4bc3919f8456aa4a25b4c1c363d2d id-db993b7003b34dbeada345144a135100"
+          targetConnections="id-60e4bc3919f8456aa4a25b4c1c363d2d id-db993b7003b34dbeada345144a135100 id-0cd2d04a25cf474baeccc2331827bf34"
           font="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"
           fontColor="#000000"
           fillColor="#ffffb5">
@@ -155,15 +163,6 @@
           <archimateRelationship
               xsi:type="archimate:AggregationRelationship"
               href="AggregationRelationship_id-95dc1844e42442e8baa168b97aff888b.xml#id-95dc1844e42442e8baa168b97aff888b"/>
-        </sourceConnections>
-        <sourceConnections
-            xsi:type="archimate:DiagramModelArchimateConnection"
-            id="id-92a99fa1ed4c440b926b5dee8e73abb9"
-            source="id-3e8356fd9a9845a5afb0cfc928161d52"
-            target="id-6aea3d9e18e244e6b57c6f0c7f5dddd8">
-          <archimateRelationship
-              xsi:type="archimate:AssociationRelationship"
-              href="AssociationRelationship_id-6a7546f7d90d4614bc33ef93bd9eab25.xml#id-6a7546f7d90d4614bc33ef93bd9eab25"/>
         </sourceConnections>
         <bounds
             x="12"
