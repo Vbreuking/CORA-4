@@ -13,7 +13,7 @@
     <bounds
         x="12"
         y="132"
-        width="973"
+        width="1021"
         height="109"/>
   </children>
   <children
@@ -27,7 +27,7 @@
     <bounds
         x="12"
         y="252"
-        width="973"
+        width="1021"
         height="157"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -103,6 +103,15 @@
         <archimateRelationship
             xsi:type="archimate:AggregationRelationship"
             href="AggregationRelationship_id-dceec6a163f94a31bbb5e50dfb46d038.xml#id-dceec6a163f94a31bbb5e50dfb46d038"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-aa4b673b8b7747daa8f07fc64ebfdd59"
+          source="id-6d013976e8ef4ece9b9e9fdd14554aa4"
+          target="id-211f7a4eee9641058b23b258977d94fd">
+        <archimateRelationship
+            xsi:type="archimate:TriggeringRelationship"
+            href="TriggeringRelationship_id-dff394feb0184d2fa676701066934bd5.xml#id-dff394feb0184d2fa676701066934bd5"/>
       </sourceConnections>
       <bounds
           x="156"
@@ -180,13 +189,28 @@
         fillColor="#f9b47b"
         textPosition="1">
       <bounds
-          x="810"
+          x="864"
           y="36"
           width="145"
           height="55"/>
       <archimateElement
           xsi:type="archimate:BusinessService"
           href="BusinessService_id-6c71e1c4071f48cdb22ce25af0bd3208.xml#id-6c71e1c4071f48cdb22ce25af0bd3208"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-211f7a4eee9641058b23b258977d94fd"
+        targetConnections="id-aa4b673b8b7747daa8f07fc64ebfdd59"
+        fillColor="#eaeaea"
+        textPosition="1">
+      <bounds
+          x="720"
+          y="72"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessEvent"
+          href="BusinessEvent_id-0705abdb696d4b6f82d2fbcc188c5144.xml#id-0705abdb696d4b6f82d2fbcc188c5144"/>
     </children>
   </children>
   <children
@@ -199,7 +223,7 @@
     <bounds
         x="12"
         y="420"
-        width="973"
+        width="1021"
         height="109"/>
   </children>
   <children
@@ -212,7 +236,7 @@
     <bounds
         x="12"
         y="12"
-        width="973"
+        width="1021"
         height="109"/>
   </children>
   <children
@@ -225,7 +249,7 @@
     <bounds
         x="12"
         y="540"
-        width="973"
+        width="1021"
         height="109"/>
   </children>
 </archimate:ArchimateDiagramModel>
