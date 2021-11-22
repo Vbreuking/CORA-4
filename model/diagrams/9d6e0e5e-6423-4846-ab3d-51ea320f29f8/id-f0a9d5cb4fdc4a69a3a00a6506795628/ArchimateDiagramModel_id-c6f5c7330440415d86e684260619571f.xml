@@ -23,13 +23,13 @@
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-7fcf5e30163e427990300416e1f0b803"
           source="id-b3b27e03f71e4239adb79b0a67df0330"
-          target="id-3810506895f54de1bcd174bc4c81e229">
+          target="id-e4c281ba9ca24a849029ada001204fbe">
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_id-3fb72abb3160463590f72302b8dd91ea.xml#id-3fb72abb3160463590f72302b8dd91ea"/>
       </sourceConnections>
       <bounds
-          x="984"
+          x="864"
           y="36"
           width="120"
           height="55"/>
@@ -78,7 +78,7 @@
             href="TriggeringRelationship_id-65d1bec454c14e10ae85153369f15944.xml#id-65d1bec454c14e10ae85153369f15944"/>
       </sourceConnections>
       <bounds
-          x="24"
+          x="12"
           y="78"
           width="120"
           height="55"/>
@@ -145,8 +145,17 @@
             xsi:type="archimate:AggregationRelationship"
             href="AggregationRelationship_id-afacc6850b8e4333a8af921aeb5b733c.xml#id-afacc6850b8e4333a8af921aeb5b733c"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-f4865009b98941c9b31ef158bc491347"
+          source="id-4d14480e825643c48e051d4b1b1be9f6"
+          target="id-e4c281ba9ca24a849029ada001204fbe">
+        <archimateRelationship
+            xsi:type="archimate:TriggeringRelationship"
+            href="TriggeringRelationship_f0dcb19b-44d4-4f71-ac90-a288dbeb6564.xml#f0dcb19b-44d4-4f71-ac90-a288dbeb6564"/>
+      </sourceConnections>
       <bounds
-          x="168"
+          x="156"
           y="36"
           width="685"
           height="121"/>
@@ -243,17 +252,32 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-3810506895f54de1bcd174bc4c81e229"
-        targetConnections="id-d80dc90eee9e4943a4d69783930e3aa6 id-7fcf5e30163e427990300416e1f0b803"
+        targetConnections="id-d80dc90eee9e4943a4d69783930e3aa6"
         fillColor="#f9b47b"
         textPosition="1">
       <bounds
-          x="984"
+          x="996"
           y="36"
           width="120"
           height="55"/>
       <archimateElement
           xsi:type="archimate:BusinessService"
           href="BusinessService_f3468e92-806d-4678-82ea-7aa58f2a3ac7.xml#f3468e92-806d-4678-82ea-7aa58f2a3ac7"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-e4c281ba9ca24a849029ada001204fbe"
+        targetConnections="id-f4865009b98941c9b31ef158bc491347 id-7fcf5e30163e427990300416e1f0b803"
+        fillColor="#eaeaea"
+        textPosition="1">
+      <bounds
+          x="864"
+          y="78"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessEvent"
+          href="BusinessEvent_41b8c615-6704-4903-aa26-0126e7deae29.xml#41b8c615-6704-4903-aa26-0126e7deae29"/>
     </children>
   </children>
   <children
@@ -304,7 +328,7 @@
             href="ServingRelationship_id-eaaf6ed3ae424241a425293cf1a69e59.xml#id-eaaf6ed3ae424241a425293cf1a69e59"/>
       </sourceConnections>
       <bounds
-          x="396"
+          x="384"
           y="36"
           width="120"
           height="55"/>
@@ -335,7 +359,7 @@
             href="ServingRelationship_id-fff0c3d61d444e1dadd13f95209ada81.xml#id-fff0c3d61d444e1dadd13f95209ada81"/>
       </sourceConnections>
       <bounds
-          x="240"
+          x="228"
           y="36"
           width="120"
           height="55"/>
@@ -357,7 +381,7 @@
             href="ServingRelationship_id-9868b36041304e3c8e98ff8750ab89a5.xml#id-9868b36041304e3c8e98ff8750ab89a5"/>
       </sourceConnections>
       <bounds
-          x="588"
+          x="576"
           y="36"
           width="120"
           height="55"/>
@@ -379,7 +403,7 @@
             href="ServingRelationship_id-d05b2e8d794846afa8ba835dc4552e90.xml#id-d05b2e8d794846afa8ba835dc4552e90"/>
       </sourceConnections>
       <bounds
-          x="720"
+          x="708"
           y="36"
           width="120"
           height="55"/>
