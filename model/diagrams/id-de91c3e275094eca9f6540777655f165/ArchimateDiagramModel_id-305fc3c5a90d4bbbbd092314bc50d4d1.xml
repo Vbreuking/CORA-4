@@ -803,7 +803,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-05ecdaab88a7418ebe6605990a19904b"
-        targetConnections="id-98d59ffef3ab4c4699b3dbf49dc0aead"
+        targetConnections="id-98d59ffef3ab4c4699b3dbf49dc0aead id-47a59ddd2ec94eae9fbe474091ed5b5f"
         font="1|Segoe UI|11.25|2|WINDOWS|1|-15|0|0|0|400|-1|0|0|0|3|2|1|34|Segoe UI"
         fillColor="#bfe1ff">
       <sourceConnections
@@ -5142,5 +5142,40 @@
     <archimateElement
         xsi:type="archimate:BusinessInteraction"
         href="BusinessInteraction_id-12876f85ed0f47eb83894ff1dd03843a.xml#id-12876f85ed0f47eb83894ff1dd03843a"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-9dafea8e90c34f84973d052a5a68449c"
+      name="Risico's"
+      textAlignment="1"
+      fillColor="#ffffff"
+      documentation="In deze baan worden de belangrijkste (bedrijfs/proces)risico's gemodelleerd">
+    <bounds
+        x="-96"
+        y="-1872"
+        width="2089"
+        height="109"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-0d7924c5f3bc476880699eb634076334"
+        textPosition="1">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-47a59ddd2ec94eae9fbe474091ed5b5f"
+          source="id-0d7924c5f3bc476880699eb634076334"
+          target="id-05ecdaab88a7418ebe6605990a19904b">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-84b7f1197c5d45fbbad36eae48f1ae00.xml#id-84b7f1197c5d45fbbad36eae48f1ae00"/>
+      </sourceConnections>
+      <bounds
+          x="840"
+          y="36"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Assessment"
+          href="Assessment_id-97ae2019fd884e9cb597ec8d4c1a0f07.xml#id-97ae2019fd884e9cb597ec8d4c1a0f07"/>
+    </children>
   </children>
 </archimate:ArchimateDiagramModel>
