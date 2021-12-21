@@ -120,8 +120,9 @@
                 target="id-1b64149e03f144ab9e07e27f599e5266">
               <bendpoints
                   startX="576"
+                  startY="24"
                   endX="1248"
-                  endY="-879"/>
+                  endY="-855"/>
               <bendpoints
                   startX="576"
                   startY="72"
@@ -221,6 +222,15 @@
               <archimateRelationship
                   xsi:type="archimate:RealizationRelationship"
                   href="RealizationRelationship_920b3569-4d52-4841-9f96-ed505d592c50.xml#920b3569-4d52-4841-9f96-ed505d592c50"/>
+            </sourceConnections>
+            <sourceConnections
+                xsi:type="archimate:DiagramModelArchimateConnection"
+                id="id-3bd4ea62278d4853bbc21d53cc6781b2"
+                source="id-f9deba28c4f4402d9a7fa75faafb8c0a"
+                target="id-b10247150e724a1587818d46fce8ff0a">
+              <archimateRelationship
+                  xsi:type="archimate:TriggeringRelationship"
+                  href="TriggeringRelationship_id-49a7a121a20a49fbbbad81e9505f92dd.xml#id-49a7a121a20a49fbbbad81e9505f92dd"/>
             </sourceConnections>
             <bounds
                 x="12"
@@ -1114,6 +1124,21 @@
           <archimateElement
               xsi:type="archimate:BusinessEvent"
               href="BusinessEvent_id-366de50842b34f41b734a6e74a77bc35.xml#id-366de50842b34f41b734a6e74a77bc35"/>
+        </children>
+        <children
+            xsi:type="archimate:DiagramModelArchimateObject"
+            id="id-b10247150e724a1587818d46fce8ff0a"
+            targetConnections="id-3bd4ea62278d4853bbc21d53cc6781b2"
+            fillColor="#eaeaea"
+            textPosition="1">
+          <bounds
+              x="1164"
+              y="480"
+              width="120"
+              height="55"/>
+          <archimateElement
+              xsi:type="archimate:BusinessEvent"
+              href="BusinessEvent_id-6c36e9dc76c94aa7b9c5d712fbd797da.xml#id-6c36e9dc76c94aa7b9c5d712fbd797da"/>
         </children>
         <archimateElement
             xsi:type="archimate:BusinessFunction"
