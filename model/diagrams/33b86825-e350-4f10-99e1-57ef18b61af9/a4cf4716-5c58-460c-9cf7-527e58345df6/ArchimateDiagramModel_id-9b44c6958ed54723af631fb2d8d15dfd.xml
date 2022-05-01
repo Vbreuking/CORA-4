@@ -19,12 +19,13 @@
         id="id-3136405cfed8493aa5d8435b6a269276"
         name="Basisregistratie Waarde Onroerende Zaken"
         fontColor="#008000"
-        textAlignment="1">
+        textAlignment="1"
+        borderType="1">
       <bounds
           x="12"
-          y="420"
+          y="396"
           width="169"
-          height="109"/>
+          height="133"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-e37f98a160934cf08a4b273326cce390"
@@ -37,21 +38,13 @@
             lineColor="#008000"
             source="id-e37f98a160934cf08a4b273326cce390"
             target="id-0d807b5588e443fa8189cbe82b22c2de">
-          <bendpoints
-              startX="144"
-              endX="-96"
-              endY="12"/>
-          <bendpoints
-              startX="144"
-              startY="-12"
-              endX="-96"/>
           <archimateRelationship
               xsi:type="archimate:AggregationRelationship"
               href="AggregationRelationship_id-538ca5870f1a4ec4a965bc7144863907.xml#id-538ca5870f1a4ec4a965bc7144863907"/>
         </sourceConnections>
         <bounds
             x="24"
-            y="36"
+            y="48"
             width="120"
             height="49"/>
         <archimateElement
@@ -60,7 +53,7 @@
       </children>
       <properties
           key="Bron"
-          value="WOZ"/>
+          value="Stelsel van Basisregistraties"/>
     </children>
     <children
         xsi:type="archimate:DiagramModelGroup"
@@ -72,9 +65,9 @@
         borderType="1">
       <bounds
           x="13"
-          y="312"
+          y="132"
           width="168"
-          height="97"/>
+          height="121"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-8ff87fe52eef41bea5ef7f09481ed494"
@@ -89,9 +82,9 @@
             source="id-8ff87fe52eef41bea5ef7f09481ed494"
             target="id-f0e1ef904b1240d1ac6969e9b53823d1">
           <bendpoints
-              startX="239"
-              startY="9"
-              endX="-232"
+              startX="-1"
+              startY="177"
+              endX="-472"
               endY="9"/>
           <archimateRelationship
               xsi:type="archimate:AssociationRelationship"
@@ -99,13 +92,16 @@
         </sourceConnections>
         <bounds
             x="24"
-            y="24"
+            y="36"
             width="120"
             height="55"/>
         <archimateElement
             xsi:type="archimate:BusinessObject"
             href="BusinessObject_id-33e1fd4332f34b03b4ac1002f2600076.xml#id-33e1fd4332f34b03b4ac1002f2600076"/>
       </children>
+      <properties
+          key="Bron"
+          value="Stelsel van Basisregistraties"/>
     </children>
     <children
         xsi:type="archimate:DiagramModelGroup"
@@ -115,9 +111,9 @@
         textAlignment="1"
         borderType="1">
       <bounds
-          x="420"
+          x="444"
           y="24"
-          width="199"
+          width="169"
           height="97"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
@@ -140,7 +136,7 @@
               href="AssociationRelationship_id-c4c24037214943478d4fa7d4b05835f3.xml#id-c4c24037214943478d4fa7d4b05835f3"/>
         </sourceConnections>
         <bounds
-            x="48"
+            x="24"
             y="24"
             width="120"
             height="55"/>
@@ -428,7 +424,8 @@
       id="id-647d441470e945d18058dd7805fd3c15"
       name="Basisregistratie Adressen en Gebouwen (BAG)"
       fontColor="#008000"
-      textAlignment="1">
+      textAlignment="1"
+      borderType="1">
     <bounds
         x="-12"
         y="216"
@@ -736,6 +733,6 @@
     </children>
     <properties
         key="Bron"
-        value="BAG"/>
+        value="Stelsel van Basisregistraties"/>
   </children>
 </archimate:ArchimateDiagramModel>
