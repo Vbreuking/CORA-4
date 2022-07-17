@@ -147,6 +147,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-9f36391d8c554b9dba15868820e6a45f"
+        targetConnections="id-f3bda2d3ad3b4d6db233e5aaf19ba296"
         textAlignment="1">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
@@ -857,7 +858,7 @@
     <bounds
         x="-192"
         y="-72"
-        width="1477"
+        width="505"
         height="145"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -913,10 +914,59 @@
         xsi:type="archimate:Grouping"
         href="Grouping_id-47424722ac1247319b7ccb1f7f4a96a1.xml#id-47424722ac1247319b7ccb1f7f4a96a1"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-f6980e1cbbf74186a77ea4b5144b6b08"
+      textAlignment="1"
+      fillColor="#dcf0ff">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-85a400ca9536417280cf6432fd75a799"
+        source="id-f6980e1cbbf74186a77ea4b5144b6b08"
+        target="id-8dab4a8d5006498383c827f743cd26ab">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-aa5711ac447b42bcbb0754603dea396b.xml#id-aa5711ac447b42bcbb0754603dea396b"/>
+    </sourceConnections>
+    <bounds
+        x="336"
+        y="-72"
+        width="469"
+        height="145"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-8dab4a8d5006498383c827f743cd26ab"
+        targetConnections="id-85a400ca9536417280cf6432fd75a799"
+        font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+        fontColor="#ffffff"
+        fillColor="#2a8ec9"
+        textPosition="1">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-f3bda2d3ad3b4d6db233e5aaf19ba296"
+          source="id-8dab4a8d5006498383c827f743cd26ab"
+          target="id-9f36391d8c554b9dba15868820e6a45f">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-2d7eed1874f94ea4962edf9bf4988472.xml#id-2d7eed1874f94ea4962edf9bf4988472"/>
+      </sourceConnections>
+      <bounds
+          x="168"
+          y="60"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-e43c2bdb632a46c892c316d0021b9647.xml#id-e43c2bdb632a46c892c316d0021b9647"/>
+    </children>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_970766e5-a1e8-4c3a-92f4-031fe5ca3812.xml#970766e5-a1e8-4c3a-92f4-031fe5ca3812"/>
+  </children>
   <properties
       key="CORA-kernteam"
-      value="13-5-22: relatie tussen pand en zelfstandig verblijfsobject is niet logisch om die in deze plaat weer te geven"/>
+      value="13-5-22: relatie tussen pand en zelfstandig verblijfsobject is niet logisch om die in deze plaat weer te geven. VBR: juist wel om aan te geven dat corporaties niet zomaar relatie zelfstandig verblijfsobject en pand kunnen wijzigen zonder de bron aan te laten passen door de bronhouder"/>
   <properties
       key="CORA-kernteam"
-      value="13-5-22: waarom is hier de objectlocatie en bijbehorende relaties opgenomen? "/>
+      value="13-5-22: waarom is hier de objectlocatie en bijbehorende relaties opgenomen? VBR: Omdat objectlocatie in IMKAD document is opgenomen en relatie met Objectlocatie buitenland gelegd kan worden. Deze zijn geen onderdeel van de BAG maar wel van IMKAD. Wij nemen die modellering van IMKAD over o in ons model te kunnen hergebruiken."/>
 </archimate:ArchimateDiagramModel>
