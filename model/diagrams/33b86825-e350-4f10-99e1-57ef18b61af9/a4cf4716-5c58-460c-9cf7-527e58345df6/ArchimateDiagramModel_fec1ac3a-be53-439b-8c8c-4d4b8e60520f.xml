@@ -359,6 +359,50 @@
           key="Bron"
           value="Stelsel van Basisregistraties"/>
     </children>
+    <children
+        xsi:type="archimate:DiagramModelGroup"
+        id="id-e59db18c0fbc4e5fb64c86ce67bcc664"
+        name="Handelsregister (HR)"
+        fontColor="#000000"
+        textAlignment="1"
+        fillColor="#ddffff"
+        borderType="1">
+      <bounds
+          x="13"
+          y="36"
+          width="167"
+          height="121"/>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-d6b2cf47688644e5ab966b8b80f0c4b9"
+          font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+          fontColor="#ffffff"
+          fillColor="#00c8c8"
+          textPosition="1">
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-55d0f76e4dc8402bb714cb9aa003a875"
+            source="id-d6b2cf47688644e5ab966b8b80f0c4b9"
+            target="id-0790a77dbf984026bf5963bf51c55d61">
+          <bendpoints
+              startX="-385"
+              startY="-3"
+              endX="72"
+              endY="-36"/>
+          <archimateRelationship
+              xsi:type="archimate:AssociationRelationship"
+              href="AssociationRelationship_id-74441cc8afad4db68eef596dfbddd64e.xml#id-74441cc8afad4db68eef596dfbddd64e"/>
+        </sourceConnections>
+        <bounds
+            x="24"
+            y="36"
+            width="120"
+            height="55"/>
+        <archimateElement
+            xsi:type="archimate:BusinessObject"
+            href="BusinessObject_id-33e1fd4332f34b03b4ac1002f2600076.xml#id-33e1fd4332f34b03b4ac1002f2600076"/>
+      </children>
+    </children>
     <archimateElement
         xsi:type="archimate:Grouping"
         href="Grouping_id-770f4d3b5d9845e6a2803495785d9d61.xml#id-770f4d3b5d9845e6a2803495785d9d61"/>
@@ -1188,7 +1232,7 @@
         <children
             xsi:type="archimate:DiagramModelArchimateObject"
             id="id-0790a77dbf984026bf5963bf51c55d61"
-            targetConnections="id-6d5024a2ab9b41dba577ed3210e0b282 id-0691752df66f4fb783c5e29cdc70dfcd id-226041ac9c3d456bb524830590e2957d"
+            targetConnections="id-6d5024a2ab9b41dba577ed3210e0b282 id-0691752df66f4fb783c5e29cdc70dfcd id-226041ac9c3d456bb524830590e2957d id-55d0f76e4dc8402bb714cb9aa003a875"
             font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
             fontColor="#feffff"
             fillColor="#f18e00"
