@@ -179,20 +179,11 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="3cee19cb-a9e4-42b7-b78a-631a4b98573d"
-        targetConnections="id-da6bc9d8640842f6bd173ccd3d7cc7c5 id-a71a9544fa784f6bbae1fbdcadd31670"
+        targetConnections="id-da6bc9d8640842f6bd173ccd3d7cc7c5 id-a71a9544fa784f6bbae1fbdcadd31670 id-b231084b1743457cb6641482abac5a39"
         font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
         fontColor="#ffffff"
         fillColor="#2a8ec9"
         textPosition="1">
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="cd50e8b6-1af2-427f-9c6c-1d3d4c0016dc"
-          source="3cee19cb-a9e4-42b7-b78a-631a4b98573d"
-          target="5fa91198-a67f-4c5e-bd6c-ca7b3ce6dcc8">
-        <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_b507aa0d-5c95-4fc2-a1d4-10d3785ae957.xml#b507aa0d-5c95-4fc2-a1d4-10d3785ae957"/>
-      </sourceConnections>
       <bounds
           x="24"
           y="684"
@@ -750,7 +741,6 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="5fa91198-a67f-4c5e-bd6c-ca7b3ce6dcc8"
-          targetConnections="cd50e8b6-1af2-427f-9c6c-1d3d4c0016dc"
           font="1|Segoe UI|9.0|1|WINDOWS|1|-12|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
           fontColor="#ffffff"
           fillColor="#9b3c8c"
@@ -763,6 +753,15 @@
           <archimateRelationship
               xsi:type="archimate:SpecializationRelationship"
               href="SpecializationRelationship_id-e2ade192ed144879b6f7c9fe858425f6.xml#id-e2ade192ed144879b6f7c9fe858425f6"/>
+        </sourceConnections>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-b231084b1743457cb6641482abac5a39"
+            source="5fa91198-a67f-4c5e-bd6c-ca7b3ce6dcc8"
+            target="3cee19cb-a9e4-42b7-b78a-631a4b98573d">
+          <archimateRelationship
+              xsi:type="archimate:AssociationRelationship"
+              href="AssociationRelationship_id-52349467ffd842c495422ff87c3a3fe0.xml#id-52349467ffd842c495422ff87c3a3fe0"/>
         </sourceConnections>
         <bounds
             x="24"
