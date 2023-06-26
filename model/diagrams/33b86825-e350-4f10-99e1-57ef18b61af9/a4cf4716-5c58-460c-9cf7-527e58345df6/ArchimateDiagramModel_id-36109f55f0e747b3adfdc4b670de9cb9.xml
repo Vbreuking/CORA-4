@@ -1,9 +1,10 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="CORA Bedrijfsobjectenmodel doorklikbaar per domein"
+    name="Bedrijfsobjectenmodel doorklikbaar per domein"
     id="id-36109f55f0e747b3adfdc4b670de9cb9"
-    documentation="Bedrijfsobjecten vormen met elkaar één model. Maar als ze allemaal in één figuur getoond worden, is het CORA bedrijfsobjectenmodel niet meer leesbaar en hanteerbaar. Daarom knippen we het model op in logische stukjes (zogenaamde domeinen) die ieder afzonderlijk wel leesbaar zijn. Door de verbinding met één of meerdere bedrijfsobjecten uit andere domeinen te tonen wordt duidelijk gemaakt hoe dit stukje van het CORA bedrijfsobjectenmodel met andere stukjes samenhangt. Ieder domein heeft een eigen kleur.">
+    documentation="Bedrijfsobjecten vormen met elkaar één model. Maar als ze allemaal in één figuur getoond worden, is het CORA bedrijfsobjectenmodel niet meer leesbaar en hanteerbaar. Daarom knippen we het model op in logische stukjes (zogenaamde domeinen) die ieder afzonderlijk wel leesbaar zijn. Door de verbinding met één of meerdere bedrijfsobjecten uit andere domeinen te tonen wordt duidelijk gemaakt hoe dit stukje van het CORA bedrijfsobjectenmodel met andere stukjes samenhangt. Ieder domein heeft een eigen kleur."
+    viewpoint="information_structure">
   <children
       xsi:type="archimate:DiagramModelGroup"
       id="id-6c3c39001a9f4953b45e016459a932c6"
@@ -589,6 +590,7 @@
   <children
       xsi:type="archimate:DiagramModelReference"
       id="id-14d1feeebcff4e95a78d731f13471c03"
+      fontColor="#21e4bd"
       fillColor="#21e4bd">
     <bounds
         x="696"
@@ -751,7 +753,7 @@
   <children
       xsi:type="archimate:DiagramModelReference"
       id="id-d091bb3fa7dd4b5e8090902eef51801e"
-      fontColor="#ffffff"
+      fontColor="#9b9bff"
       fillColor="#9b9bff">
     <bounds
         x="1068"
@@ -1030,7 +1032,7 @@
   <children
       xsi:type="archimate:DiagramModelReference"
       id="id-26fc80d00f2c4392a86221e3ddb836d9"
-      fontColor="#ffffff"
+      fontColor="#9b3c8c"
       fillColor="#9b3c8c">
     <bounds
         x="36"
@@ -1169,7 +1171,7 @@
   <children
       xsi:type="archimate:DiagramModelReference"
       id="id-32fd9bd845d44ee5a94df5557b7fe731"
-      fontColor="#ffffff"
+      fontColor="#2a8ec9"
       fillColor="#2a8ec9">
     <bounds
         x="36"
@@ -3324,7 +3326,7 @@
   <children
       xsi:type="archimate:DiagramModelReference"
       id="id-11cc90d5e037479ea6ba50ed3d4343ce"
-      fontColor="#ffffff"
+      fontColor="#b5a845"
       fillColor="#b5a845">
     <bounds
         x="2016"
@@ -3433,7 +3435,7 @@
   <children
       xsi:type="archimate:DiagramModelReference"
       id="id-45ac3793cc5043f2922e7ab4140f5e22"
-      fontColor="#ffffff"
+      fontColor="#808080"
       fillColor="#808080">
     <bounds
         x="1823"
@@ -3526,7 +3528,7 @@
   <children
       xsi:type="archimate:DiagramModelReference"
       id="id-57b423a297064af399e83536881507f1"
-      fontColor="#ffffff"
+      fontColor="#7d903d"
       fillColor="#7d903d">
     <bounds
         x="1260"
@@ -3793,7 +3795,7 @@
   <children
       xsi:type="archimate:DiagramModelReference"
       id="id-ab59d320bc85451aa9af3938ead9daf2"
-      fontColor="#ffffff"
+      fontColor="#f18e00"
       fillColor="#f18e00">
     <bounds
         x="1068"
@@ -4367,6 +4369,150 @@
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-e476fe313386423da08808149c5e4c64.xml#id-e476fe313386423da08808149c5e4c64"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-4c10efd41c4848bd9f62cfd2d87a63bd"
+      font="1|Segoe UI|9.857142|1|WINDOWS|1|-23|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+      fontColor="#ffffff"
+      fillColor="#f18e00"
+      alpha="0"
+      content="Vastgoed"
+      borderType="2">
+    <features
+        name="lineAlpha"
+        value="0"/>
+    <bounds
+        x="1452"
+        y="-3"
+        width="169"
+        height="37"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-f0822cd72a5944458ac89fe0b1f09d0e"
+      font="1|Segoe UI|9.857142|1|WINDOWS|1|-23|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+      fontColor="#ffffff"
+      fillColor="#7d903d"
+      alpha="0"
+      content="Onderhoud"
+      borderType="2">
+    <features
+        name="lineAlpha"
+        value="0"/>
+    <bounds
+        x="1452"
+        y="-336"
+        width="169"
+        height="25"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-850cb3ad5627403493d99a7917e7e9dc"
+      font="1|Segoe UI|9.857142|1|WINDOWS|1|-23|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+      fontColor="#ffffff"
+      fillColor="#9b9bff"
+      alpha="0"
+      content="Woningwaardering"
+      borderType="2">
+    <features
+        name="lineAlpha"
+        value="0"/>
+    <bounds
+        x="1068"
+        y="-336"
+        width="145"
+        height="25"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-14a3fb687a044374b4eba5acc7aba4b8"
+      font="1|Segoe UI|9.857142|1|WINDOWS|1|-23|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+      fontColor="#ffffff"
+      fillColor="#808080"
+      alpha="0"
+      content="Projectontwikkeling"
+      borderType="2">
+    <features
+        name="lineAlpha"
+        value="0"/>
+    <bounds
+        x="1823"
+        y="-336"
+        width="145"
+        height="37"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-b423eb7508d4463681ce6a44d6eadf05"
+      font="1|Segoe UI|9.857142|1|WINDOWS|1|-23|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+      fontColor="#ffffff"
+      fillColor="#808080"
+      alpha="0"
+      content="Dossier"
+      borderType="2">
+    <features
+        name="lineAlpha"
+        value="0"/>
+    <bounds
+        x="2016"
+        y="-336"
+        width="145"
+        height="37"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-602d72779dc94f95b6e89371b440ca4b"
+      font="1|Segoe UI|9.857142|1|WINDOWS|1|-23|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+      fontColor="#ffffff"
+      fillColor="#7d903d"
+      alpha="0"
+      content="Energieprestatie"
+      borderType="2">
+    <features
+        name="lineAlpha"
+        value="0"/>
+    <bounds
+        x="780"
+        y="-336"
+        width="169"
+        height="37"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-9247542ac1cf47b2a257277e5502d49c"
+      font="1|Segoe UI|9.857142|1|WINDOWS|1|-23|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+      fontColor="#ffffff"
+      fillColor="#7d903d"
+      alpha="0"
+      content="Overeenkomsten"
+      borderType="2">
+    <features
+        name="lineAlpha"
+        value="0"/>
+    <bounds
+        x="443"
+        y="-99"
+        width="169"
+        height="37"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-596d3b8421d54430b94c8b1d11555c0d"
+      font="1|Segoe UI|9.857142|1|WINDOWS|1|-23|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI"
+      fontColor="#ffffff"
+      fillColor="#7d903d"
+      alpha="0"
+      content="Relaties"
+      borderType="2">
+    <features
+        name="lineAlpha"
+        value="0"/>
+    <bounds
+        x="360"
+        y="24"
+        width="169"
+        height="37"/>
   </children>
   <properties
       key="CORA-kernteam"

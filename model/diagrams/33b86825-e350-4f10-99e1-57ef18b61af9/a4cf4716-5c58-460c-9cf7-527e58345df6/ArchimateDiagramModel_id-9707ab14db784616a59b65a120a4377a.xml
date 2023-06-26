@@ -1,0 +1,62 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Bedrijfsobjectdomein Matching"
+    id="id-9707ab14db784616a59b65a120a4377a"
+    documentation="Bedrijfsobjecten vormen met elkaar één model. Maar als ze allemaal in één figuur getoond worden, is het CORA bedrijfsobjectenmodel niet meer leesbaar en hanteerbaar. Daarom knippen we het model op in logische stukjes (zogenaamde domeinen) die ieder afzonderlijk wel leesbaar zijn. Door de verbinding met één of meerdere bedrijfsobjecten uit andere domeinen te tonen wordt duidelijk gemaakt hoe dit stukje van het CORA bedrijfsobjectenmodel met andere stukjes samenhangt. Ieder domein heeft een eigen kleur."
+    viewpoint="information_structure">
+  <children
+      xsi:type="archimate:DiagramModelReference"
+      id="id-1a25a45622ea41fe816190464c41cd7a"
+      fillColor="#ffff00">
+    <bounds
+        x="360"
+        y="-216"
+        width="313"
+        height="97"/>
+    <referencedModel
+        xsi:type="archimate:ArchimateDiagramModel"
+        href="ArchimateDiagramModel_id-f2bf33b5e458457e9d6c05a552baf83a.xml#id-f2bf33b5e458457e9d6c05a552baf83a"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-83d18fc26dc94d31a7c3db0cbb477095"
+      textPosition="1"
+      type="1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-3d783bb65b104faf9b6c6fdcdad3af82"
+        source="id-83d18fc26dc94d31a7c3db0cbb477095"
+        target="id-e72a1d1728bf49e98f86e26c2bb4dd06">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_id-43029477a13346eeacf517bc00a02056.xml#id-43029477a13346eeacf517bc00a02056"/>
+    </sourceConnections>
+    <bounds
+        x="372"
+        y="-192"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-1cefccff0d504145a1069430cd2f2e08.xml#id-1cefccff0d504145a1069430cd2f2e08"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-e72a1d1728bf49e98f86e26c2bb4dd06"
+      targetConnections="id-3d783bb65b104faf9b6c6fdcdad3af82"
+      textPosition="1"
+      type="1">
+    <bounds
+        x="540"
+        y="-192"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-e476fe313386423da08808149c5e4c64.xml#id-e476fe313386423da08808149c5e4c64"/>
+  </children>
+  <properties
+      key="CORA-kernteam"
+      value="13-5-22: let op: relaties tussen overeenkomst, huurovereenkomt en koopovereenkomst lijkt niet logisch. Moeten aggregation relatie zijn. Dan is er maar één ass relatie tussen Vastgoed en Overeenkomst nodig. VBR: Heb juist relatie tussen de specifieke subtypes verwijderd zodat generieke relatie getoond wordt"/>
+</archimate:ArchimateDiagramModel>
