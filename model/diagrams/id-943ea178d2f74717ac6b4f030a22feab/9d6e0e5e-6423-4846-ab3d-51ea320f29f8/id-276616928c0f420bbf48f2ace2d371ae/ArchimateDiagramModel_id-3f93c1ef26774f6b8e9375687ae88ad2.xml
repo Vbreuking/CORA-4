@@ -1,0 +1,95 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="051 Energie Prestatie Vergoeding"
+    id="id-3f93c1ef26774f6b8e9375687ae88ad2">
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-cd496f5d6cea411e8e78c351934fa2e6"
+      name="Proces"
+      textAlignment="1"
+      fillColor="#ffffff"
+      documentation="In deze baan staat het bedrijfsproces, de werkprocessen die onderdeel uitmaken van het bedrijfsproces én de gebeurtenissen die de werrkprocessen starten respectievelijk opleveren.">
+    <bounds
+        x="12"
+        y="396"
+        width="529"
+        height="157"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-99d27fe94bf24bc29cd3f7e3bf4652ca"
+        font="1|Segoe UI|11.25|2|WINDOWS|1|-15|0|0|0|400|-1|0|0|0|3|2|1|34|Segoe UI"
+        fillColor="#93ccff">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-86d44a2a061f44f3a968b168e6e24ae7"
+          source="id-99d27fe94bf24bc29cd3f7e3bf4652ca"
+          target="id-4085fb3cce5f4b0393ff04f795ea723c">
+        <archimateRelationship
+            xsi:type="archimate:RealizationRelationship"
+            href="RealizationRelationship_id-24c781e4aa7d478585782311ba5c4ddf.xml#id-24c781e4aa7d478585782311ba5c4ddf"/>
+      </sourceConnections>
+      <bounds
+          x="156"
+          y="36"
+          width="217"
+          height="109"/>
+      <archimateElement
+          xsi:type="archimate:BusinessProcess"
+          href="BusinessProcess_id-d7c889155077428caa73bc664cfff489.xml#id-d7c889155077428caa73bc664cfff489"/>
+    </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-2a1c81388681496690f9e1fda13d278b"
+      name="Resultaat KPI's"
+      textAlignment="1"
+      fillColor="#ffffff"
+      documentation="In deze baan staan de resultaat kPi's">
+    <bounds
+        x="12"
+        y="132"
+        width="529"
+        height="109"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-85e0fdb43dc5496dbae2cab9d80df5ab"
+      name="Risico's"
+      textAlignment="1"
+      fillColor="#ffffff"
+      documentation="In deze baan worden de belangrijkste (bedrijfs/proces)risico's gemodelleerd">
+    <bounds
+        x="12"
+        y="12"
+        width="529"
+        height="109"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-a15ba4dc1b994e7a9ff31e76d77748fa"
+      name="Producten en diensten"
+      textAlignment="1"
+      fillColor="#ffffff"
+      documentation="In deze baan staan de dienst die door het bedrijfsproces wordt gerealiseerd en de bedrijfsservices die door de werkprocessen worden gerealiseerd ">
+    <bounds
+        x="12"
+        y="252"
+        width="529"
+        height="133"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-4085fb3cce5f4b0393ff04f795ea723c"
+        targetConnections="id-86d44a2a061f44f3a968b168e6e24ae7"
+        fillColor="#fde2cc">
+      <bounds
+          x="156"
+          y="24"
+          width="216"
+          height="97"/>
+      <archimateElement
+          xsi:type="archimate:BusinessService"
+          href="BusinessService_id-5558d892a4954c59a063cbe945dd1d63.xml#id-5558d892a4954c59a063cbe945dd1d63"/>
+    </children>
+  </children>
+</archimate:ArchimateDiagramModel>
