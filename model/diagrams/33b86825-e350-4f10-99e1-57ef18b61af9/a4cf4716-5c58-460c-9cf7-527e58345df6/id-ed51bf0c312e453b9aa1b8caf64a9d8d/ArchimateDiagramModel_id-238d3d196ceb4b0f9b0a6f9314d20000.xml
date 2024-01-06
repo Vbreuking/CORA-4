@@ -3,7 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Adres (BAG)"
     id="id-238d3d196ceb4b0f9b0a6f9314d20000"
-    documentation="De Basisregistratie Adressen en Gebouwen (BAG) bevat gegevens van alle adressen en gebouwen in Nederland.">
+    documentation="De Basisregistratie Adressen en Gebouwen (BAG) bevat gegevens van alle adressen en gebouwen in Nederland. De BAG is onderdeel van het stelsel van basisregistraties van de Nederlandse overheid en vormt de kern van het domein adres. Om de scope ook te kunnen richten op buitenlandse adressen (bijvoorbeeld omdat woningzoekenden uit het buitenland zich moeten kunnen inschrijven) is aanvullende documentatie ten opzichte van de BAG integraal overgenomen van Catalogus conceptueel model: IMKAD om te kunnen hergebruiken in CORA.">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-64deed89aeda439093da7a897285fee8"
@@ -813,15 +813,15 @@
     </children>
   </children>
   <properties
-      key="CORA-kernteam"
-      value="13-5-22: relatie tussen pand en zelfstandig verblijfsobject is niet logisch om die in deze plaat weer te geven. VBR: juist wel om aan te geven dat corporaties niet zomaar relatie zelfstandig verblijfsobject en pand kunnen wijzigen zonder de bron aan te laten passen door de bronhouder"/>
-  <properties
-      key="CORA-kernteam"
-      value="13-5-22: waarom is hier de objectlocatie en bijbehorende relaties opgenomen? VBR: Omdat objectlocatie in IMKAD document is opgenomen en relatie met Objectlocatie buitenland gelegd kan worden. Deze zijn geen onderdeel van de BAG maar wel van IMKAD. Wij nemen die modellering van IMKAD over o in ons model te kunnen hergebruiken."/>
-  <properties
       key="Domein"
       value="Adres"/>
   <properties
       key="CORA-concepttype"
       value="Domein"/>
+  <properties
+      key="Betreft"
+      value="Basisregistratie"/>
+  <properties
+      key="Bron"
+      value="CORA 4.2"/>
 </archimate:ArchimateDiagramModel>
