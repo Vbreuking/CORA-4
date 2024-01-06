@@ -3,7 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="CORA Bedrijfsobjectenmodel"
     id="id-769edfab7f17470693dbf502f49048da"
-    documentation="Bedrijfsobjecten vormen met elkaar één model. Maar als ze allemaal in één figuur getoond worden, is het CORA bedrijfsobjectenmodel niet meer leesbaar en hanteerbaar. Daarom knippen we het model op in logische stukjes (zogenaamde domeinen) die ieder afzonderlijk wel leesbaar zijn. Door de verbinding met één of meerdere bedrijfsobjecten uit andere domeinen te tonen wordt duidelijk gemaakt hoe dit stukje van het CORA bedrijfsobjectenmodel met andere stukjes samenhangt. Ieder domein heeft een eigen kleur.">
+    documentation="Bedrijfsobjecten vormen met elkaar één model. Maar als ze allemaal in één figuur getoond worden, is het bedrijfsobjectenmodel niet meer leesbaar en hanteerbaar. Daarom knippen we het model op in logische stukjes (zogenaamde domeinen) die ieder afzonderlijk wel leesbaar zijn. Door de verbinding met één of meerdere bedrijfsobjecten uit andere domeinen te tonen wordt duidelijk gemaakt hoe dit stukje van het bedrijfsobjectenmodel met andere stukjes samenhangt. Ieder domein heeft een eigen kleur.&#xD;&#xA;&#xD;&#xA;Bedrijfsobjecten vormen de verbinding tussen enerzijds processen &amp; prestatie-meting en anderzijds gegevens &amp; data. Het belang om bedrijfsobjecten in samenhang uit te werken is daarom groot. Alle bedrijfsobjecten die relevant zijn voor de woningcorporatie vormen met elkaar één model, het zogenaamde bedrijfsobjectenmodel. Een belangrijk uitgangspunt hierbij is dat een bedrijfsobject slechts één keer voorkomt in het gehele model, ongeacht de domeinen die in het model worden onderscheiden.&#xD;&#xA;&#xD;&#xA;We nemen we relevante onderdelen uit het stelsel van basisregistratie één-op-één over&#xD;&#xA;Bedrijfsobjecten die hun oorsprong hebben in het stelsel van basisregistraties nemen we één-op-één over en maken als zodanig onderdeel uit van het bedrijfsobjectenmodel van CORA [1]. Omwille van de informatiebehoefte van woningcorporaties kunnen objecten van het stelsel en objecten van het CORA bedrijfsobjectenmodel wel dubbel voorkomen, maar dan wordt dit in de naam aangegeven zoals in het voorbeeld BAG Pand dat een 1 : 1 relatie heeft met Pand. CORA maakt namelijk onderscheid tussen zelfstandige- en niet zelfstandige verblijfsobjecten en dat onderscheid wordt in de BAG niet gemaakt.&#xD;&#xA;&#xD;&#xA;Grip krijgen en grip houden op de kwaliteit van data wordt steeds uitdagender maar ook steeds belangrijker. Door de bron van data op orde te brengen - ook als die buiten de eigen organisatie ligt - neemt de betrouwbaarheid van data zowel in de eigen organisatie als die van ketenpartners (zoals bronhouders) toe die dezelfde bron gebruiken.&#xD;&#xA;&#xD;&#xA;Het bedrijfsobjectenmodel beoogt een solide fundament te zijn voor de informatiehuishouding van woningcorporaties. De samenhang en impact van nieuwe ontwikkelingen kan vervolgens beter ingekaderd worden.&#xD;&#xA;">
   <children
       xsi:type="archimate:DiagramModelGroup"
       id="id-00697a1c2b8647869b97fa8953aeb819"
@@ -2153,6 +2153,15 @@
         targetConnections="id-9fb53b57728d4a70bdae2955c418ad91"
         textPosition="1"
         type="1">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-b40b3b08dba8484fbfb10f68cba515ed"
+          source="id-53b7a738cdfd423ab9b92b01efaa5c66"
+          target="id-c73457efc157490b98294afcc11077d6">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-c0a25e78a5b44b06a90e295ce9cfec30.xml#id-c0a25e78a5b44b06a90e295ce9cfec30"/>
+      </sourceConnections>
       <bounds
           x="216"
           y="228"
@@ -2186,6 +2195,15 @@
             xsi:type="archimate:AggregationRelationship"
             href="AggregationRelationship_6c05cea9-7a0e-4c29-8451-6be90eb15381.xml#6c05cea9-7a0e-4c29-8451-6be90eb15381"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-f641754fcdac4a32a01cf5e2fd775560"
+          source="id-dbe5078e6a2d43c4aeffced6277562e7"
+          target="id-c73457efc157490b98294afcc11077d6">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-3c74c6d7eb9e49399874cbe792069bc8.xml#id-3c74c6d7eb9e49399874cbe792069bc8"/>
+      </sourceConnections>
       <bounds
           x="216"
           y="156"
@@ -2202,8 +2220,8 @@
         textPosition="1"
         type="1">
       <bounds
-          x="396"
-          y="120"
+          x="132"
+          y="60"
           width="120"
           height="55"/>
       <archimateElement
@@ -2217,13 +2235,27 @@
         textPosition="1"
         type="1">
       <bounds
-          x="396"
-          y="192"
+          x="276"
+          y="60"
           width="120"
           height="55"/>
       <archimateElement
           xsi:type="archimate:BusinessObject"
           href="BusinessObject_d04482da-f418-4589-a67b-e0c2ee5315ad.xml#d04482da-f418-4589-a67b-e0c2ee5315ad"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-c73457efc157490b98294afcc11077d6"
+        targetConnections="id-f641754fcdac4a32a01cf5e2fd775560 id-b40b3b08dba8484fbfb10f68cba515ed"
+        textPosition="1">
+      <bounds
+          x="384"
+          y="192"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-9ff9451843a240afbbdc4922e9b72c48.xml#id-9ff9451843a240afbbdc4922e9b72c48"/>
     </children>
   </children>
   <children
@@ -4403,6 +4435,6 @@
         href="ArchimateDiagramModel_id-c8de1435b944400ba372d67d51e1571a.xml#id-c8de1435b944400ba372d67d51e1571a"/>
   </children>
   <properties
-      key="CORA-kernteam"
-      value="13-5-22: let op: relaties tussen overeenkomst, huurovereenkomt en koopovereenkomst lijkt niet logisch. Moeten aggregation relatie zijn. Dan is er maar één ass relatie tussen Vastgoed en Overeenkomst nodig. VBR: Heb juist relatie tussen de specifieke subtypes verwijderd zodat generieke relatie getoond wordt"/>
+      key="CORA-concepttype"
+      value="Bedrijfsobjectenmodel"/>
 </archimate:ArchimateDiagramModel>
