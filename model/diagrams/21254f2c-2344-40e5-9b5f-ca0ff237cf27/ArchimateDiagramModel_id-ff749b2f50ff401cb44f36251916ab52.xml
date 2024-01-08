@@ -3,7 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Tekenconventies processen"
     id="id-ff749b2f50ff401cb44f36251916ab52"
-    documentation="===Toelichting tekenconventies processen===&#xD;&#xA;In Archimate hebben we er voor gekozen processen uit te werken tot het niveau van processtappen. Dit is voor de referentiearchitectuur nodig omdat &#xD;&#xA;* in een processtap een gebeurtenis kan voorkomen die een nieuw werkproces opstart en daarvoor de begingebeurtenis is;&#xD;&#xA;* output van een processtap input kan zijn voor een volgende processtap maar alleen als die 'altijd' volgordelijk zijn;&#xD;&#xA;* processen een beoogd resultaat realiseren (een dienst of een bedrijfsservice) en pas ten einde komen als ook de eindgebeurtenis wordt behaald.&#xD;&#xA;&lt;/br>&#xD;&#xA;&lt;/br>"
+    documentation="===Toelichting tekenconventies processen===&#xD;&#xA;In Archimate hebben we er voor gekozen processen uit te werken tot het niveau van processtappen. Dit is voor de referentiearchitectuur nodig omdat &#xD;&#xA;* in een processtap een gebeurtenis kan voorkomen die een nieuw werkproces opstart en daarvoor de begingebeurtenis is;&#xD;&#xA;* output van een processtap input kan zijn voor een volgende processtap maar alleen als die 'altijd' volgordelijk zijn en er dus een triggerrelatie getoond mag worden. Is er geen volgordelijkeheid (bijvoorbeeld om dat de stappen optioneel zijn), dan wordt er geen trigger relatie getekend.&#xD;&#xA;* processen een beoogd resultaat realiseren (een dienst of een bedrijfsservice) en pas ten einde komen als ook de eindgebeurtenis wordt behaald. We laten de realisatie relatie zien waar die aan de orde is;&#xD;&#xA;* de bedrijfsfunctie die nodig is om een resultaat te leveren en dus expertise heeft voor het proces komen in de sjablonen procesketens en stuurscenario's voor. Daarmee wordt inzichtelijk gemaakt welke bedrijfsfuncties met elkaar &#xD;&#xA;&lt;/br>&#xD;&#xA;&lt;/br>"
     viewpoint="business_process_cooperation">
   <children
       xsi:type="archimate:DiagramModelGroup"
@@ -537,6 +537,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-c76d130fd7a943bd9cef4b0dc9a69de4"
+          targetConnections="id-7c533ffba6f54c178e722ed3819cb044"
           fillColor="#eaeaea"
           textPosition="1">
         <bounds
@@ -673,6 +674,15 @@
           <archimateRelationship
               xsi:type="archimate:AggregationRelationship"
               href="AggregationRelationship_id-5db0f716c97b478893a98beeeec4a4bf.xml#id-5db0f716c97b478893a98beeeec4a4bf"/>
+        </sourceConnections>
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-7c533ffba6f54c178e722ed3819cb044"
+            source="id-172937a79c794055bc0f41ff59149484"
+            target="id-c76d130fd7a943bd9cef4b0dc9a69de4">
+          <archimateRelationship
+              xsi:type="archimate:TriggeringRelationship"
+              href="TriggeringRelationship_id-def40b088a0448aeb88e98ae14bb5774.xml#id-def40b088a0448aeb88e98ae14bb5774"/>
         </sourceConnections>
         <bounds
             x="504"
@@ -949,8 +959,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-52376e5d5e65492d94744e4e7998d0ca"
-          textPosition="1"
-          type="1">
+          textPosition="1">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-af6e84b11e9b47b397f1e81db6295f62"
@@ -1184,8 +1193,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-153c71b1e5db46d68dc59dc8bf3064a8"
-          textPosition="1"
-          type="1">
+          textPosition="1">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-888a2a2f0de74793aca499361852fe0b"
@@ -1250,8 +1258,7 @@
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-ad22e4a4d1de4d27a212231897c5ddfa"
           fillColor="#ccccff"
-          textPosition="1"
-          type="1">
+          textPosition="1">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-2214d08684504dc39e7882beb11184a4"
