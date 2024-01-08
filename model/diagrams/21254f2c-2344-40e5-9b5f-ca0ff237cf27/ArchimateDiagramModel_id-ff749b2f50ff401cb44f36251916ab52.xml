@@ -1,8 +1,10 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Tekenconventies CORA"
-    id="id-ff749b2f50ff401cb44f36251916ab52">
+    name="Tekenconventies processen"
+    id="id-ff749b2f50ff401cb44f36251916ab52"
+    documentation="===Toelichting tekenconventies processen===&#xD;&#xA;In Archimate hebben we er voor gekozen processen uit te werken tot het niveau van processtappen. Dit is voor de referentiearchitectuur nodig omdat &#xD;&#xA;* in een processtap een gebeurtenis kan voorkomen die een nieuw werkproces opstart en daarvoor de begingebeurtenis is;&#xD;&#xA;* output van een processtap input kan zijn voor een volgende processtap maar alleen als die 'altijd' volgordelijk zijn;&#xD;&#xA;* processen een beoogd resultaat realiseren (een dienst of een bedrijfsservice) en pas ten einde komen als ook de eindgebeurtenis wordt behaald.&#xD;&#xA;&lt;/br>&#xD;&#xA;&lt;/br>"
+    viewpoint="business_process_cooperation">
   <children
       xsi:type="archimate:DiagramModelGroup"
       id="id-5f1138ffe84349bda4691660a04ee949"
