@@ -1,75 +1,26 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Dossier"
-    id="id-2526d1f62025470e90afb10290bc8185"
-    documentation="Dossier is een verzameling van documenten en andere vastgelegde informatie betreffende één handeling (zaak, object of persoon).">
+    name="Basis registratie personen (BRP)"
+    id="id-73d100188fbf47678d2014e0ce5b81e9">
   <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-2282071983d6455589d551425b7ef625"
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-06eb0844a1a040b582551448b081f529"
+      name="Basis registratie personen (BRP)"
+      fontColor="#000000"
       textAlignment="1"
-      fillColor="#f5f3e7">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-e33b20dc058f450ea1ca476abbf1d003"
-        source="id-2282071983d6455589d551425b7ef625"
-        target="id-c92959f7e3f24f42a3c77f9866081082">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-5f90a7d4a7c2402da3e6b20745e1d6c1.xml#id-5f90a7d4a7c2402da3e6b20745e1d6c1"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-4bc8283a2cf34852aadba83ba1d0e900"
-        source="id-2282071983d6455589d551425b7ef625"
-        target="id-b1146650cd9f4d61859b88e6967edbb2">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-699222450cdd4940ba6bc3cb234c4fe1.xml#id-699222450cdd4940ba6bc3cb234c4fe1"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-27f227ea22264bac807b1479a333092e"
-        source="id-2282071983d6455589d551425b7ef625"
-        target="id-8156cb7b9af1431a94caac6c4322ae98">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-0da49e12f0a44c6386e5e1282ba426c8.xml#id-0da49e12f0a44c6386e5e1282ba426c8"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-0e9336fdd2114c79ac688bac936b81a7"
-        source="id-2282071983d6455589d551425b7ef625"
-        target="id-7baef56c5a244ef8aaa8eecd5bfb79e8">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-24b40b1ff1764bcca4a0e5d9878e3a43.xml#id-24b40b1ff1764bcca4a0e5d9878e3a43"/>
-    </sourceConnections>
+      fillColor="#bfffff"
+      documentation="De Basisregistratie Personen (BRP) bevat persoonsgegevens over alle ingezetenen van Nederland en over personen die niet in Nederland wonen – of hier slechts kort verblijven – maar die een relatie hebben met de Nederlandse overheid, de ‘niet-ingezetenen’."
+      borderType="1">
     <bounds
         x="12"
         y="12"
         width="169"
-        height="373"/>
+        height="205"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-c92959f7e3f24f42a3c77f9866081082"
-        targetConnections="id-e33b20dc058f450ea1ca476abbf1d003"
-        fillColor="#b5a845"
-        textPosition="1">
-      <bounds
-          x="24"
-          y="120"
-          width="120"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:BusinessObject"
-          href="BusinessObject_id-093246e76aeb4b659b51ac4604647126.xml#id-093246e76aeb4b659b51ac4604647126"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-b1146650cd9f4d61859b88e6967edbb2"
-        targetConnections="id-4bc8283a2cf34852aadba83ba1d0e900"
-        fillColor="#b5a845"
+        id="id-3eb2238d857245dfb8ad3edd7b6b25c9"
+        fillColor="#80ffff"
         textPosition="1">
       <bounds
           x="24"
@@ -78,57 +29,38 @@
           height="55"/>
       <archimateElement
           xsi:type="archimate:BusinessObject"
-          href="BusinessObject_id-7e69b27b0afb4f93a7102d93b6748185.xml#id-7e69b27b0afb4f93a7102d93b6748185"/>
+          href="BusinessObject_id-6ee29ecd5b4e4d3dbf9f968d4ee58775.xml#id-6ee29ecd5b4e4d3dbf9f968d4ee58775"/>
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-8156cb7b9af1431a94caac6c4322ae98"
-        targetConnections="id-27f227ea22264bac807b1479a333092e"
-        fillColor="#b5a845"
+        id="id-53f779f9087f49dd99fab6058baaba25"
+        fillColor="#80ffff"
         textPosition="1">
       <bounds
           x="24"
-          y="204"
+          y="120"
           width="120"
           height="55"/>
       <archimateElement
           xsi:type="archimate:BusinessObject"
-          href="BusinessObject_id-ed8cbfa1e41344f7a3074d1045cfd814.xml#id-ed8cbfa1e41344f7a3074d1045cfd814"/>
+          href="BusinessObject_id-03eae5f5980f4be2a37617b01eb30591.xml#id-03eae5f5980f4be2a37617b01eb30591"/>
     </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-7baef56c5a244ef8aaa8eecd5bfb79e8"
-        targetConnections="id-0e9336fdd2114c79ac688bac936b81a7"
-        fillColor="#b5a845"
-        textPosition="1">
-      <bounds
-          x="24"
-          y="288"
-          width="120"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:BusinessObject"
-          href="BusinessObject_id-b5d5d481e942454990e38a74e26188ec.xml#id-b5d5d481e942454990e38a74e26188ec"/>
-    </children>
-    <archimateElement
-        xsi:type="archimate:Grouping"
-        href="Grouping_id-757edb8229aa401191e0f5b98ae31688.xml#id-757edb8229aa401191e0f5b98ae31688"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelGroup"
-      id="id-911f7a8efd26498693ce78cd3f744482"
+      id="id-ab815495ad464fdfadefcb5358b0f9c2"
       name="Direct naar domein:"
       textAlignment="1"
       fillColor="#ffffff"
       borderType="1">
     <bounds
-        x="216"
+        x="228"
         y="12"
         width="157"
         height="1081"/>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="id-344851e350da4a60b736b7350f41dc4b"
+        id="id-e8b5e3dc0a314b5ba25b74dd9255b54e"
         fontColor="#808080"
         fillColor="#d2d7d7"
         textPosition="1">
@@ -143,7 +75,7 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="id-afcc83584a5c472ba5ff57e81b20671d"
+        id="id-69f746dc0c6d41938601e42712f3016c"
         fontColor="#ffffff"
         fillColor="#b75b00"
         textPosition="1">
@@ -158,7 +90,7 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="id-f7e424720b57452d91c373981c7ac8d1"
+        id="id-c6471eaa5a2a47cc80d63b40b137963a"
         fontColor="#ffffff"
         fillColor="#9b3c8c"
         textPosition="1">
@@ -173,7 +105,22 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="id-af6fe88c5b644069b30fe15e189466bd"
+        id="id-858f3034e5914137b068c2458f60a0f8"
+        fontColor="#ffffff"
+        fillColor="#b5a845"
+        textPosition="1">
+      <bounds
+          x="14"
+          y="167"
+          width="133"
+          height="40"/>
+      <referencedModel
+          xsi:type="archimate:ArchimateDiagramModel"
+          href="ArchimateDiagramModel_id-2526d1f62025470e90afb10290bc8185.xml#id-2526d1f62025470e90afb10290bc8185"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelReference"
+        id="id-b9b7179b8b584e77826f25a68f86220f"
         fontColor="#808080"
         fillColor="#ffff00"
         textPosition="1">
@@ -188,7 +135,7 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="id-0a00e8b042b4421b998d5a36c503d28c"
+        id="id-0b0ce7a1bbde4e84bd5ab2b98e1d4958"
         fontColor="#ffffff"
         fillColor="#ff80c0"
         textPosition="1">
@@ -203,7 +150,7 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="id-c7f39e34651a46bdafa3e684eb4c895d"
+        id="id-083662e2f1474c279fdaa6dc0599f9f9"
         fontColor="#ffffff"
         fillColor="#ff8080"
         textPosition="1">
@@ -218,7 +165,7 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="id-2ca16c28dfe442f28362aea9cb778bb2"
+        id="id-e053069d2a8b4b728f5311560db5cfa9"
         fontColor="#ffffff"
         fillColor="#5f5f5f"
         textPosition="1">
@@ -233,7 +180,7 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="id-8a0dd338c86e4a60988d8c0bac921d6a"
+        id="id-27eb659d58dc4390b9f45889a94f44ad"
         fontColor="#ffffff"
         fillColor="#7d903c"
         textPosition="1">
@@ -248,7 +195,7 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="id-cd7f8f01a9664759a7d66cccf8207058"
+        id="id-0babcf94c2bd42d9b733ba292764e95c"
         fontColor="#ffffff"
         fillColor="#b70000"
         textPosition="1">
@@ -263,7 +210,7 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="id-c0d1031903b94e8588bcfd8cb979087c"
+        id="id-91fcddc867c948d49141b20fede66907"
         fontColor="#808080"
         fillColor="#00ff00"
         textPosition="1">
@@ -278,7 +225,7 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="id-614f6c5d80544bcfb9e47c88947cd1cd"
+        id="id-d8b44319befb4d5b9294fbf0bb07676b"
         fontColor="#ffffff"
         fillColor="#8080ff"
         textPosition="1">
@@ -293,7 +240,7 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="id-3db2331ea71d400495e0ffea2da632dc"
+        id="id-4c9897a34ae34e5889de008227a0c0c1"
         fontColor="#ffffff"
         fillColor="#2a8ec9"
         textPosition="1">
@@ -308,7 +255,7 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="id-f873cd58ad5c4b35a5bd034727a7a7b6"
+        id="id-6ef92820800644448b15671974423ed6"
         fontColor="#808080"
         fillColor="#21e4bd"
         textPosition="1">
@@ -323,7 +270,7 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="id-28add9eebf694c7397e221f9688f145f"
+        id="id-bd403a5171f24d04b1f6c00f7d4535e6"
         fontColor="#ffffff"
         fillColor="#f18e00"
         textPosition="1">
@@ -338,22 +285,7 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="id-135d85326a464c47b2248ae7635eceba"
-        fontColor="#ffffff"
-        fillColor="#b5a845"
-        textPosition="1">
-      <bounds
-          x="14"
-          y="168"
-          width="133"
-          height="40"/>
-      <referencedModel
-          xsi:type="archimate:ArchimateDiagramModel"
-          href="ArchimateDiagramModel_id-fc955c9bb1f44f27be718b053e3578dc.xml#id-fc955c9bb1f44f27be718b053e3578dc"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelReference"
-        id="id-2805937aefbb4a98a23a61b4508350be"
+        id="id-43aaa381ba1442e1b80124ed9b9ffbce"
         fillColor="#ffffff"
         textPosition="1">
       <bounds
@@ -367,13 +299,13 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="id-81be621720d7458d8a670b315bf1e54c"
+        id="id-a5af6efe4627494d9538faf9a7ff0cd4"
         fontColor="#808080"
         fillColor="#ffff80"
         textPosition="1">
       <bounds
-          x="14"
-          y="71"
+          x="12"
+          y="72"
           width="133"
           height="37"/>
       <referencedModel
@@ -382,22 +314,22 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="id-3afbbae8533e4ae4a9a29cf9d79e9cf1"
+        id="id-4721374438fd455a918bf19d03f73828"
         fontColor="#808080"
         fillColor="#80ffff"
         textPosition="1">
       <bounds
-          x="14"
-          y="119"
+          x="13"
+          y="120"
           width="133"
           height="37"/>
       <referencedModel
           xsi:type="archimate:ArchimateDiagramModel"
-          href="ArchimateDiagramModel_id-73d100188fbf47678d2014e0ce5b81e9.xml#id-73d100188fbf47678d2014e0ce5b81e9"/>
+          href="ArchimateDiagramModel_id-38ed8b878e3743dfbc1ada3314afa008.xml#id-38ed8b878e3743dfbc1ada3314afa008"/>
     </children>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="id-5d7b7f056f3a463aafa99f4935a38515"
+        id="id-7c94888b63354e5a9812be88dd9bb3bb"
         fontColor="#ffffff"
         fillColor="#00c8c8"
         textPosition="1">
@@ -412,7 +344,7 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="id-315416ebd3134e1d931a7883e0f6bed8"
+        id="id-c927e66553994f5b8d1157867aa78872"
         fontColor="#ffffff"
         fillColor="#800040"
         textPosition="1">
@@ -427,7 +359,7 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="id-c67777e6cdf84931944c93e33206c94f"
+        id="id-907553b7938f423993276b80a85e1f4a"
         fontColor="#808080"
         fillColor="#80ff80"
         textPosition="1">
@@ -442,13 +374,13 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelReference"
-        id="id-a65b9b880a1344e7ad3dd055f2170173"
+        id="id-147c1017a6de461e818a4808b4cd28a0"
         fontColor="#ffffff"
         fillColor="#d2a6a6"
         textPosition="1">
       <bounds
           x="14"
-          y="23"
+          y="24"
           width="133"
           height="37"/>
       <referencedModel
@@ -457,15 +389,15 @@
     </children>
   </children>
   <properties
-      key="Domein"
-      value="Dossier"/>
-  <properties
       key="CORA-concepttype"
       value="Domein"/>
   <properties
+      key="Domein"
+      value="Basis registratie personen"/>
+  <properties
       key="Betreft"
-      value="Prototype"/>
+      value="Basisregistratie"/>
   <properties
       key="Bron"
-      value="CORA 4.2"/>
+      value="Basis Registratie Personen"/>
 </archimate:ArchimateDiagramModel>
