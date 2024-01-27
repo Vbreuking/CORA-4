@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Domein Bbl benoemde ruimten"
-    id="id-b6794ef7e424408caa69c268e4d79793">
+    id="id-b6794ef7e424408caa69c268e4d79793"
+    documentation="In het Besluit bouwwerken leefomgeving (Bbl) worden ruimten onderscheiden op basis van de gebruiksfuntie en die zijn bepalend vor de eisen die aan ruimten worden gesteld. Binnen een gebruiksgebied is het onderscheid tussen verblijfsgebied en functiegebied relevant. Ruimten die ten dienste staan van meerdere gebruiksgebieden worden in het Bbl specifiek beschreven. Het betreffen een badruimte, toiletruimte, verkeersruimte en technische ruimte. &#xD;&#xA;* Verschillende soorten gebruiksgebieden met verschillende gebruiksfuncties moeten voorzien van een toiletruimte en eventueel een badruimte. Door ze als gemeenschappelijke ruimte typeren in het Bbl kan aan de minimale eisen worden voldaan.&#xD;&#xA;* Verkeersruimten (en technische ruimten) kunnen ten dienste staan van meerdere gebruiksgebieden met verschillende gebruiksfuncties.">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-c7ab29a274154335a0dd481318bfb60a"
@@ -334,10 +335,10 @@
           source="id-2243e9653fa942159c15f3312078695c"
           target="id-42bf85b18a6d4ef0869b16b5696d0fb4">
         <bendpoints
-            startX="-1"
-            startY="93"
-            endX="852"
-            endY="-3"/>
+            startX="2"
+            startY="81"
+            endX="314"
+            endY="-15"/>
         <archimateRelationship
             xsi:type="archimate:SpecializationRelationship"
             href="SpecializationRelationship_id-b3f330bea8814051b51bf32812fb81b4.xml#id-b3f330bea8814051b51bf32812fb81b4"/>
@@ -356,6 +357,20 @@
         id="id-5c5cfe5d7964432ab052216db7d55d79"
         targetConnections="id-950b10a7f1a345dd82988131d445169c id-50b84c6615734191bfd9b777d9a2ee6e"
         textPosition="1">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-1b2ad3bb25254800a56cf1e1da91c6ed"
+          source="id-5c5cfe5d7964432ab052216db7d55d79"
+          target="id-42bf85b18a6d4ef0869b16b5696d0fb4">
+        <bendpoints
+            startX="3"
+            startY="105"
+            endX="470"
+            endY="9"/>
+        <archimateRelationship
+            xsi:type="archimate:SpecializationRelationship"
+            href="SpecializationRelationship_id-70d9d008467c43ec82ac48284c2d7e32.xml#id-70d9d008467c43ec82ac48284c2d7e32"/>
+      </sourceConnections>
       <bounds
           x="1100"
           y="192"
@@ -375,6 +390,11 @@
           id="id-b6ac4c65f0744bca92f99648ac5c68d5"
           source="id-4d6258a26b27461b864e364fcc5cee1d"
           target="id-42bf85b18a6d4ef0869b16b5696d0fb4">
+        <bendpoints
+            startX="3"
+            startY="81"
+            endX="-466"
+            endY="-15"/>
         <archimateRelationship
             xsi:type="archimate:SpecializationRelationship"
             href="SpecializationRelationship_id-f3cd8c06829640bf870b4b4533744eaf.xml#id-f3cd8c06829640bf870b4b4533744eaf"/>
@@ -398,6 +418,11 @@
           id="id-8e5a39070889498e9a0b2f4472c37345"
           source="id-a6ab8eafb5734403b57a865c2e57f536"
           target="id-42bf85b18a6d4ef0869b16b5696d0fb4">
+        <bendpoints
+            startX="3"
+            startY="105"
+            endX="-610"
+            endY="9"/>
         <archimateRelationship
             xsi:type="archimate:SpecializationRelationship"
             href="SpecializationRelationship_id-96fc483285554b8b9a0de9053e033cbc.xml#id-96fc483285554b8b9a0de9053e033cbc"/>
@@ -414,10 +439,10 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-42bf85b18a6d4ef0869b16b5696d0fb4"
-        targetConnections="id-629b05304d624e5ca8dc1adc476e8d49 id-b6ac4c65f0744bca92f99648ac5c68d5 id-8e5a39070889498e9a0b2f4472c37345 id-59728e245ea0436499970c27cf6b65f2"
+        targetConnections="id-629b05304d624e5ca8dc1adc476e8d49 id-b6ac4c65f0744bca92f99648ac5c68d5 id-8e5a39070889498e9a0b2f4472c37345 id-59728e245ea0436499970c27cf6b65f2 id-1b2ad3bb25254800a56cf1e1da91c6ed"
         textPosition="1">
       <bounds
-          x="96"
+          x="633"
           y="288"
           width="120"
           height="55"/>
