@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Verhuurklaar maken huureenheid"
-    id="id-2d855764a75248d197f4fe4f3037efce">
+    id="id-2d855764a75248d197f4fe4f3037efce"
+    documentation="Om een verhuurbare eenheid die (opnieuw) beschikbaar komt voor een nieuwe verhuring moet eerst verhuurklaar worden gemaakt. Afhankelijk van het beleid en de status van de beschikbaarkomende eenheid kan mutatieonderhoud nodig zijn. Vanuit de hoofdbedrijfsfunctie wordt indien nodig opdracht aan de hoofdfunctie 'Vastgoedonderhoud' om regie te voeren over het mutatieonderhoud. Vervolgens kan op basis van diverse gegevens de aanbiedhuur worden bepaald. vervolgens kan de procesketen 'Verhuren eenheid' worden opgestart.&#xD;&#xA;&#xD;&#xA;De procesketen het verhuurklaar maken kan volgen op de procesketen 'Verwerken verzoek huuropzegging' of '(Her)ontwikkelen en opleveren vastgoed' of 'Terugkopen koopeenheid' indien de koopeenheid na terugkoop omgezet moet worden in een verhuurbare eenheid.">
   <children
       xsi:type="archimate:DiagramModelGroup"
       id="id-dd303f60a2ca410aa1472a3a4fd585fb"
@@ -1689,7 +1690,6 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-af15302ff58f4dd99f278cf28605c9ea"
-        targetConnections="id-a4f138d18874450dbbe8a2e77c27e736"
         fillColor="#eaeaea"
         textPosition="1">
       <sourceConnections
@@ -3097,29 +3097,6 @@
                 fontColor="#400040"
                 fillColor="#e8f4ff"
                 textPosition="1">
-              <sourceConnections
-                  xsi:type="archimate:DiagramModelArchimateConnection"
-                  id="id-a4f138d18874450dbbe8a2e77c27e736"
-                  source="id-9188be28eaf3461188c000380bfbd49d"
-                  target="id-af15302ff58f4dd99f278cf28605c9ea">
-                <bendpoints
-                    startY="93"
-                    endX="852"
-                    endY="-447"/>
-                <bendpoints
-                    startX="-1044"
-                    startY="93"
-                    endX="-192"
-                    endY="-447"/>
-                <bendpoints
-                    startX="-1044"
-                    startY="537"
-                    endX="-192"
-                    endY="-3"/>
-                <archimateRelationship
-                    xsi:type="archimate:TriggeringRelationship"
-                    href="TriggeringRelationship_id-96723de9425c43f3a93b065825c7f95d.xml#id-96723de9425c43f3a93b065825c7f95d"/>
-              </sourceConnections>
               <bounds
                   x="672"
                   y="24"
