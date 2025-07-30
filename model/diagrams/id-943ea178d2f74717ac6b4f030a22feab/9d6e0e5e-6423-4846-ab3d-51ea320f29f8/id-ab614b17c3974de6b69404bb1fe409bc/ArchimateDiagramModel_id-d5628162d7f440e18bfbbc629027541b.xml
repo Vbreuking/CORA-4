@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="041 Wijzigen exploitatievorm eenheid"
+    name="041 Wijzigen exploitatie eenheid"
     id="id-d5628162d7f440e18bfbbc629027541b">
   <children
       xsi:type="archimate:DiagramModelGroup"
@@ -60,15 +60,6 @@
       </sourceConnections>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-b4a6cceccaab4c588ded9c6f83ec2cc1"
-          source="id-03f7abec759b4a6f879d81b089ee1089"
-          target="id-e3698a5a60904fc3ba37115535d3b5ca">
-        <archimateRelationship
-            xsi:type="archimate:TriggeringRelationship"
-            href="TriggeringRelationship_id-b2659eb693354c0cab02614b5236050a.xml#id-b2659eb693354c0cab02614b5236050a"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-c8dcd563de1c41abbf34246662d34399"
           source="id-03f7abec759b4a6f879d81b089ee1089"
           target="id-b9ac273c23374f959e20f61a8682caaf">
@@ -111,6 +102,15 @@
         <archimateRelationship
             xsi:type="archimate:AggregationRelationship"
             href="AggregationRelationship_id-5f9eb22874d045619437950380c7c972.xml#id-5f9eb22874d045619437950380c7c972"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-b4a6cceccaab4c588ded9c6f83ec2cc1"
+          source="id-03f7abec759b4a6f879d81b089ee1089"
+          target="id-89c2212be5e643be9fdc9f59155926c0">
+        <archimateRelationship
+            xsi:type="archimate:TriggeringRelationship"
+            href="TriggeringRelationship_id-b2659eb693354c0cab02614b5236050a.xml#id-b2659eb693354c0cab02614b5236050a"/>
       </sourceConnections>
       <bounds
           x="156"
@@ -229,21 +229,6 @@
           xsi:type="archimate:BusinessEvent"
           href="BusinessEvent_id-b4fdcd305edd42be96382a9e7d4d3c11.xml#id-b4fdcd305edd42be96382a9e7d4d3c11"/>
     </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-e3698a5a60904fc3ba37115535d3b5ca"
-        targetConnections="id-b4a6cceccaab4c588ded9c6f83ec2cc1"
-        fillColor="#eaeaea"
-        textPosition="1">
-      <bounds
-          x="852"
-          y="78"
-          width="120"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:BusinessProcess"
-          href="BusinessProcess_id-f67f2530882f476983a265615b39557b.xml#id-f67f2530882f476983a265615b39557b"/>
-    </children>
   </children>
   <children
       xsi:type="archimate:DiagramModelGroup"
@@ -283,6 +268,20 @@
         y="540"
         width="1129"
         height="109"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-89c2212be5e643be9fdc9f59155926c0"
+      targetConnections="id-b4a6cceccaab4c588ded9c6f83ec2cc1"
+      fillColor="#eaeaea">
+    <bounds
+        x="1014"
+        y="721"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessEvent"
+        href="BusinessEvent_id-1bb87fa4b9ce4088acb80dc39f8d7163.xml#id-1bb87fa4b9ce4088acb80dc39f8d7163"/>
   </children>
   <properties
       key="CORA-concepttype"
