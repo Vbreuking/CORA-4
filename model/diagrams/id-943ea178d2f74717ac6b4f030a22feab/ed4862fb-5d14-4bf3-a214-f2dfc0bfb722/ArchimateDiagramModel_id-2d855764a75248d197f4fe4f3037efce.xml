@@ -2568,7 +2568,7 @@
           <bounds
               x="12"
               y="24"
-              width="1129"
+              width="961"
               height="157"/>
           <children
               xsi:type="archimate:DiagramModelArchimateObject"
@@ -2648,6 +2648,15 @@
               <archimateRelationship
                   xsi:type="archimate:RealizationRelationship"
                   href="RealizationRelationship_id-abe7be8e3ce342458f512f57719783ff.xml#id-abe7be8e3ce342458f512f57719783ff"/>
+            </sourceConnections>
+            <sourceConnections
+                xsi:type="archimate:DiagramModelArchimateConnection"
+                id="id-b5e8718c53ca473e95e2d4bc095a02f2"
+                source="id-bd7fa6d47d3b4d74a5c63123e5d860cb"
+                target="id-81df89ab048d413fad2416e0896a4fa6">
+              <archimateRelationship
+                  xsi:type="archimate:TriggeringRelationship"
+                  href="TriggeringRelationship_id-74b9484b34394383bf4c7b660d2d1a37.xml#id-74b9484b34394383bf4c7b660d2d1a37"/>
             </sourceConnections>
             <bounds
                 x="12"
@@ -2790,6 +2799,21 @@
           <archimateElement
               xsi:type="archimate:BusinessProcess"
               href="BusinessProcess_5dd033eb-842d-4b56-8463-73945cceacf8.xml#5dd033eb-842d-4b56-8463-73945cceacf8"/>
+        </children>
+        <children
+            xsi:type="archimate:DiagramModelArchimateObject"
+            id="id-81df89ab048d413fad2416e0896a4fa6"
+            targetConnections="id-b5e8718c53ca473e95e2d4bc095a02f2"
+            fillColor="#eaeaea"
+            textPosition="1">
+          <bounds
+              x="996"
+              y="84"
+              width="120"
+              height="55"/>
+          <archimateElement
+              xsi:type="archimate:BusinessEvent"
+              href="BusinessEvent_id-10978a7e1b8142e6b71967c4d0db5218.xml#id-10978a7e1b8142e6b71967c4d0db5218"/>
         </children>
         <archimateElement
             xsi:type="archimate:BusinessFunction"
