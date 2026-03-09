@@ -7,11 +7,12 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="6cbbe26c-e683-47c8-b6e0-ec6005fb7ff0"
-      targetConnections="id-312d74f1e95a4105930507322ec0f9d4 id-8fdfe8f64c554a3a87599b47d8fe2796"
+      targetConnections="id-312d74f1e95a4105930507322ec0f9d4 id-8fdfe8f64c554a3a87599b47d8fe2796 id-7889c32e9c654b80b6fda8b3345c47de"
       font="1|Segoe UI|11.25|2|WINDOWS|1|-15|0|0|0|400|-1|0|0|0|3|2|1|34|Segoe UI"
       fillColor="#bfe1ff">
     <bounds
-        y="12"
+        x="24"
+        y="276"
         width="1609"
         height="1297"/>
     <children
@@ -1381,8 +1382,8 @@
           href="AggregationRelationship_723d577d-db30-4498-8fd7-efb786453094.xml#723d577d-db30-4498-8fd7-efb786453094"/>
     </sourceConnections>
     <bounds
-        x="1631"
-        y="84"
+        x="1655"
+        y="348"
         width="241"
         height="901"/>
     <children
@@ -1602,8 +1603,8 @@
           href="AggregationRelationship_id-56a373e7878248779f6901d0ccc0ebf9.xml#id-56a373e7878248779f6901d0ccc0ebf9"/>
     </sourceConnections>
     <bounds
-        x="1632"
-        y="1008"
+        x="1656"
+        y="1272"
         width="240"
         height="289"/>
     <children
@@ -1705,7 +1706,8 @@
       fillColor="#ffffff"
       documentation="In deze baan worden de belangrijkste (proces/resultaat) kPi's gemodelleerd">
     <bounds
-        y="-108"
+        x="24"
+        y="156"
         width="1872"
         height="109"/>
     <children
@@ -1751,6 +1753,41 @@
       <archimateElement
           xsi:type="archimate:Value"
           href="Value_825ba7f5-2c90-4600-a056-07e292303793.xml#825ba7f5-2c90-4600-a056-07e292303793"/>
+    </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-283feb338f43429ea267e6c9d2c189f2"
+      name="Risico's"
+      textAlignment="1"
+      fillColor="#ffffff"
+      documentation="In deze baan worden de belangrijkste (bedrijfs/proces)risico's gemodelleerd">
+    <bounds
+        x="24"
+        y="24"
+        width="1872"
+        height="109"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-4a139aa1aa7a4e429cdfda12b38c0e73"
+        textPosition="1">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-7889c32e9c654b80b6fda8b3345c47de"
+          source="id-4a139aa1aa7a4e429cdfda12b38c0e73"
+          target="6cbbe26c-e683-47c8-b6e0-ec6005fb7ff0">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-15ea11067f1e4d0db90537fdc45b90ee.xml#id-15ea11067f1e4d0db90537fdc45b90ee"/>
+      </sourceConnections>
+      <bounds
+          x="744"
+          y="36"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Assessment"
+          href="Assessment_id-97ae2019fd884e9cb597ec8d4c1a0f07.xml#id-97ae2019fd884e9cb597ec8d4c1a0f07"/>
     </children>
   </children>
   <properties

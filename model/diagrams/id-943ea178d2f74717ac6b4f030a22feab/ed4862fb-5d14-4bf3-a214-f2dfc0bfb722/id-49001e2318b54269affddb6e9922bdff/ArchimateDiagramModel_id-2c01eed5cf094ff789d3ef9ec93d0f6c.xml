@@ -6,18 +6,6 @@
     documentation="Om in aanmerking te kunnen komen voor een (sociale) huurwoning schrijven woningzoekenden zich in om inschrijfduur op te bouwen. Daarmee maken ze grotere kans om als eerste in aanmerking te komen voor de woning waarop ze reageren indien inschrijfduur de wijze is waarop de volgorde wordt bepaald. Indien loting of woonduur de volgorde bepaalt heeft inschrijfduur geen waarde. Met de kandidaat die als eerste in aanmerking komt voor de beschikbare woning en de woning ook graag wil, wordt vervolgens een huurovereenkomst opgesteld en na wederzijdse instemming getekend. Vervolgens kunnen de sleutels van de nieuwe woning worden overhandigd.&#xD;&#xA;&#xD;&#xA;Alle stappen vanaf inschrijven tot en met overhandigen sleutel van de nieuwe woning is in CORA een procesketen. Deze procesketen is weer onderdeel van het stuurscenario 'Verhuurmutatie'.">
   <children
       xsi:type="archimate:DiagramModelGroup"
-      id="id-d5c7f66ccd9e41beb2f41e230b2eb67c"
-      name="KPI's"
-      textAlignment="1"
-      fillColor="#ffffff">
-    <bounds
-        x="24"
-        y="24"
-        width="2677"
-        height="109"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelGroup"
       id="id-b590a461de07485aba6e8bd0dc31a603"
       name="Dienstverlening aan nieuwe huurder"
       font="1|Segoe UI Semibold|9.0|0|WINDOWS|1|-12|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold"
@@ -25,7 +13,7 @@
       borderType="1">
     <bounds
         x="2436"
-        y="156"
+        y="288"
         width="265"
         height="937"/>
     <children
@@ -204,11 +192,12 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-75f8f2f17eeb4c03b0edcb226de7efd1"
+      targetConnections="id-55fa647a8e6a4325a5af4dcd16dbd3ec"
       font="1|Segoe UI|11.25|2|WINDOWS|1|-15|0|0|0|400|-1|0|0|0|3|2|1|34|Segoe UI"
       fillColor="#bfe1ff">
     <bounds
         x="24"
-        y="156"
+        y="288"
         width="2389"
         height="949"/>
     <children
@@ -1291,6 +1280,53 @@
     <archimateElement
         xsi:type="archimate:BusinessInteraction"
         href="BusinessInteraction_id-2ae6257e429f4f69b462a82d14ac67bd.xml#id-2ae6257e429f4f69b462a82d14ac67bd"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-4c6f9230b57a4e29b16f12c3522b9e7b"
+      name="Risico's"
+      textAlignment="1"
+      fillColor="#ffffff"
+      documentation="In deze baan worden de belangrijkste (bedrijfs/proces)risico's gemodelleerd">
+    <bounds
+        x="24"
+        y="24"
+        width="2679"
+        height="109"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-33d8b09b42054384a7da1983e8004bbe"
+        textPosition="1">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-55fa647a8e6a4325a5af4dcd16dbd3ec"
+          source="id-33d8b09b42054384a7da1983e8004bbe"
+          target="id-75f8f2f17eeb4c03b0edcb226de7efd1">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-0a1a9a4782744f52a3a83da4c43525d7.xml#id-0a1a9a4782744f52a3a83da4c43525d7"/>
+      </sourceConnections>
+      <bounds
+          x="1176"
+          y="36"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Assessment"
+          href="Assessment_id-97ae2019fd884e9cb597ec8d4c1a0f07.xml#id-97ae2019fd884e9cb597ec8d4c1a0f07"/>
+    </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-d58ac00c8b084d1c85e02fb5843e99c5"
+      name="KPI's"
+      textAlignment="1"
+      fillColor="#ffffff">
+    <bounds
+        x="24"
+        y="156"
+        width="2677"
+        height="109"/>
   </children>
   <properties
       key="Bron"

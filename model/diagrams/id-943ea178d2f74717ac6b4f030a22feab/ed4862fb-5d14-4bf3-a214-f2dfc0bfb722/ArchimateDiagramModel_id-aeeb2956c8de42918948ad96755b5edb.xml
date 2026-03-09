@@ -7,11 +7,12 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-0e4c0dfaed6c4ef4a59054ca3818d279"
+      targetConnections="id-6cb6c531ba8e4fb7bf4ce15bd836a0e5"
       font="1|Segoe UI|11.25|2|WINDOWS|1|-15|0|0|0|400|-1|0|0|0|3|2|1|34|Segoe UI"
       fillColor="#bfe1ff">
     <bounds
-        x="-84"
-        y="-24"
+        x="24"
+        y="288"
         width="2221"
         height="1837"/>
     <children
@@ -2313,8 +2314,8 @@
           href="AggregationRelationship_6b54170e-6c68-451e-b4be-991499c97491.xml#6b54170e-6c68-451e-b4be-991499c97491"/>
     </sourceConnections>
     <bounds
-        x="2160"
-        y="12"
+        x="2268"
+        y="324"
         width="241"
         height="433"/>
     <children
@@ -2417,8 +2418,8 @@
           href="AggregationRelationship_id-058114ecea93430786010792b4080beb.xml#id-058114ecea93430786010792b4080beb"/>
     </sourceConnections>
     <bounds
-        x="2161"
-        y="480"
+        x="2269"
+        y="792"
         width="240"
         height="1033"/>
     <children
@@ -2626,8 +2627,8 @@
           href="AggregationRelationship_60f1c2f5-52e0-4df8-a2e2-26690fac1cf4.xml#60f1c2f5-52e0-4df8-a2e2-26690fac1cf4"/>
     </sourceConnections>
     <bounds
-        x="2160"
-        y="1536"
+        x="2268"
+        y="1848"
         width="241"
         height="241"/>
     <children
@@ -2672,6 +2673,53 @@
     <archimateElement
         xsi:type="archimate:Product"
         href="Product_392dcfdb-99ab-424d-81e5-bee4b860fd1e.xml#392dcfdb-99ab-424d-81e5-bee4b860fd1e"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-41675de94ffb40499d6e807336dd0160"
+      name="Risico's"
+      textAlignment="1"
+      fillColor="#ffffff"
+      documentation="In deze baan worden de belangrijkste (bedrijfs/proces)risico's gemodelleerd">
+    <bounds
+        x="24"
+        y="24"
+        width="2487"
+        height="109"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-35de365949484067bff2da998ed56458"
+        textPosition="1">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-6cb6c531ba8e4fb7bf4ce15bd836a0e5"
+          source="id-35de365949484067bff2da998ed56458"
+          target="id-0e4c0dfaed6c4ef4a59054ca3818d279">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-9fd7ae940e3b4272909b3ae8c62a8530.xml#id-9fd7ae940e3b4272909b3ae8c62a8530"/>
+      </sourceConnections>
+      <bounds
+          x="1080"
+          y="36"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Assessment"
+          href="Assessment_id-97ae2019fd884e9cb597ec8d4c1a0f07.xml#id-97ae2019fd884e9cb597ec8d4c1a0f07"/>
+    </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-11b4305a4b2a4a02bcf8f00a85e0ee7c"
+      name="KPI's"
+      textAlignment="1"
+      fillColor="#ffffff">
+    <bounds
+        x="24"
+        y="156"
+        width="2485"
+        height="109"/>
   </children>
   <properties
       key="CORA-concepttype"
