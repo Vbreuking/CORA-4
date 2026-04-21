@@ -19,8 +19,8 @@
           href="AggregationRelationship_08fbae5d-3be2-4c39-84d7-daf779e8ea74.xml#08fbae5d-3be2-4c39-84d7-daf779e8ea74"/>
     </sourceConnections>
     <bounds
-        x="1440"
-        y="-240"
+        x="1488"
+        y="372"
         width="240"
         height="188"/>
     <children
@@ -69,6 +69,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-c7c2d511ff5e44699f31c28ffe0fb1b5"
+      targetConnections="id-e0f4a9ec90314614b6edcbe82410c7ba"
       font="1|Segoe UI|11.25|2|WINDOWS|1|-15|0|0|0|400|-1|0|0|0|3|2|1|34|Segoe UI"
       fillColor="#bfe1ff">
     <sourceConnections
@@ -117,8 +118,8 @@
           href="AggregationRelationship_id-7e191a1766da47ce985632f40a4a23ee.xml#id-7e191a1766da47ce985632f40a4a23ee"/>
     </sourceConnections>
     <bounds
-        x="-24"
-        y="-324"
+        x="24"
+        y="288"
         width="1429"
         height="2137"/>
     <children
@@ -2574,7 +2575,8 @@
           href="AggregationRelationship_id-271fd54041c3473891173dccc527ebc2.xml#id-271fd54041c3473891173dccc527ebc2"/>
     </sourceConnections>
     <bounds
-        x="1440"
+        x="1488"
+        y="612"
         width="240"
         height="613"/>
     <children
@@ -2715,8 +2717,8 @@
           href="AggregationRelationship_39bb8d86-315b-487d-8e2f-edff890f04c4.xml#39bb8d86-315b-487d-8e2f-edff890f04c4"/>
     </sourceConnections>
     <bounds
-        x="1440"
-        y="672"
+        x="1488"
+        y="1284"
         width="240"
         height="421"/>
     <children
@@ -2814,8 +2816,8 @@
           href="AggregationRelationship_087b9010-1fe0-4b3c-9aee-bdb23545e658.xml#087b9010-1fe0-4b3c-9aee-bdb23545e658"/>
     </sourceConnections>
     <bounds
-        x="1440"
-        y="1176"
+        x="1488"
+        y="1788"
         width="241"
         height="205"/>
     <children
@@ -2885,8 +2887,8 @@
           href="AggregationRelationship_id-5d9d397f6d044c9d905bdc242c9c9841.xml#id-5d9d397f6d044c9d905bdc242c9c9841"/>
     </sourceConnections>
     <bounds
-        x="1458"
-        y="1476"
+        x="1506"
+        y="2088"
         width="205"
         height="277"/>
     <children
@@ -2922,6 +2924,53 @@
     <archimateElement
         xsi:type="archimate:BusinessService"
         href="BusinessService_id-dfedb97548e944cb9f824b7fad5a1d9c.xml#id-dfedb97548e944cb9f824b7fad5a1d9c"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-123707f3681b4ab584c6397ee29c4c8b"
+      name="Risico's"
+      textAlignment="1"
+      fillColor="#ffffff"
+      documentation="In deze baan worden de belangrijkste (bedrijfs/proces)risico's gemodelleerd">
+    <bounds
+        x="24"
+        y="24"
+        width="1706"
+        height="109"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-a000d3e3e59246c4b1212a97cbb782a4"
+        textPosition="1">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-e0f4a9ec90314614b6edcbe82410c7ba"
+          source="id-a000d3e3e59246c4b1212a97cbb782a4"
+          target="id-c7c2d511ff5e44699f31c28ffe0fb1b5">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-8565ab77ac4d4da58a7cab1ca5af0426.xml#id-8565ab77ac4d4da58a7cab1ca5af0426"/>
+      </sourceConnections>
+      <bounds
+          x="696"
+          y="36"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Assessment"
+          href="Assessment_id-97ae2019fd884e9cb597ec8d4c1a0f07.xml#id-97ae2019fd884e9cb597ec8d4c1a0f07"/>
+    </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-5478f253efc24b5581c25961716d6ea2"
+      name="KPI's"
+      textAlignment="1"
+      fillColor="#ffffff">
+    <bounds
+        x="24"
+        y="156"
+        width="1704"
+        height="109"/>
   </children>
   <properties
       key="CORA-concepttype"

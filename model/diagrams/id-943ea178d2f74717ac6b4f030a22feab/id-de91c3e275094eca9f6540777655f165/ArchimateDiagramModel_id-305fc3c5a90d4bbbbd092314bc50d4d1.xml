@@ -7,6 +7,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-39e1176c5a714c92820980789d9ce2f3"
+      targetConnections="id-262579df622648108ab633f5669ac68d"
       font="1|Segoe UI|11.25|2|WINDOWS|1|-15|0|0|0|400|-1|0|0|0|3|2|1|34|Segoe UI"
       fillColor="#dfdfff">
     <sourceConnections
@@ -47,13 +48,13 @@
     </sourceConnections>
     <bounds
         x="24"
-        y="168"
+        y="288"
         width="1849"
         height="3181"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-05ecdaab88a7418ebe6605990a19904b"
-        targetConnections="id-98d59ffef3ab4c4699b3dbf49dc0aead id-47a59ddd2ec94eae9fbe474091ed5b5f id-b86f37f6e0cd4c43bc76bccb1bf29d76"
+        targetConnections="id-98d59ffef3ab4c4699b3dbf49dc0aead id-b86f37f6e0cd4c43bc76bccb1bf29d76"
         font="1|Segoe UI|11.25|2|WINDOWS|1|-15|0|0|0|400|-1|0|0|0|3|2|1|34|Segoe UI"
         fillColor="#bfe1ff">
       <sourceConnections
@@ -4066,41 +4067,6 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelGroup"
-      id="id-9dafea8e90c34f84973d052a5a68449c"
-      name="Risico's"
-      textAlignment="1"
-      fillColor="#ffffff"
-      documentation="In deze baan worden de belangrijkste (bedrijfs/proces)risico's gemodelleerd">
-    <bounds
-        x="24"
-        y="24"
-        width="2449"
-        height="109"/>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-0d7924c5f3bc476880699eb634076334"
-        textPosition="1">
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-47a59ddd2ec94eae9fbe474091ed5b5f"
-          source="id-0d7924c5f3bc476880699eb634076334"
-          target="id-05ecdaab88a7418ebe6605990a19904b">
-        <archimateRelationship
-            xsi:type="archimate:AssociationRelationship"
-            href="AssociationRelationship_id-84b7f1197c5d45fbbad36eae48f1ae00.xml#id-84b7f1197c5d45fbbad36eae48f1ae00"/>
-      </sourceConnections>
-      <bounds
-          x="864"
-          y="36"
-          width="120"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:Assessment"
-          href="Assessment_id-97ae2019fd884e9cb597ec8d4c1a0f07.xml#id-97ae2019fd884e9cb597ec8d4c1a0f07"/>
-    </children>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelGroup"
       id="id-f611ec110725443eab97649c2320f798"
       name="Dienstverlening aan de woningcorporatie zelf"
       textAlignment="1"
@@ -4108,7 +4074,7 @@
       borderType="1">
     <bounds
         x="1908"
-        y="168"
+        y="288"
         width="265"
         height="3181"/>
     <children
@@ -4442,7 +4408,7 @@
       borderType="1">
     <bounds
         x="2208"
-        y="168"
+        y="288"
         width="265"
         height="3181"/>
     <children
@@ -4789,6 +4755,53 @@
           xsi:type="archimate:Product"
           href="Product_17aeea0a-d169-4c5f-bc9f-947a0205b02b.xml#17aeea0a-d169-4c5f-bc9f-947a0205b02b"/>
     </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-9f69e1b8299e4b2dbaeb098f5c25efa0"
+      name="Risico's"
+      textAlignment="1"
+      fillColor="#ffffff"
+      documentation="In deze baan worden de belangrijkste (bedrijfs/proces)risico's gemodelleerd">
+    <bounds
+        x="24"
+        y="24"
+        width="2451"
+        height="109"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-8071ea5eedae4bcd88c834c8f51815e4"
+        textPosition="1">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-262579df622648108ab633f5669ac68d"
+          source="id-8071ea5eedae4bcd88c834c8f51815e4"
+          target="id-39e1176c5a714c92820980789d9ce2f3">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-02911f8828e748d29be72dee78986aca.xml#id-02911f8828e748d29be72dee78986aca"/>
+      </sourceConnections>
+      <bounds
+          x="1176"
+          y="36"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Assessment"
+          href="Assessment_id-97ae2019fd884e9cb597ec8d4c1a0f07.xml#id-97ae2019fd884e9cb597ec8d4c1a0f07"/>
+    </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-48503dd95f814269837894bdfbd60d5b"
+      name="KPI's"
+      textAlignment="1"
+      fillColor="#ffffff">
+    <bounds
+        x="24"
+        y="156"
+        width="2449"
+        height="109"/>
   </children>
   <properties
       key="CORA-concepttype"
